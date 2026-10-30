@@ -1,0 +1,55 @@
+score,dataset,stream,test
+"REWIRE, cosine familiarity",mnist,0.986111111111111,0.774494375
+"REWIRE, cosine familiarity",nmnist,0.9041666666666666,0.7439225
+"REWIRE, cosine familiarity",shd,0.6458333333333334,0.47708921875000004
+"REWIRE, cosine familiarity",cifar10,0.9888888888888889,0.7770834375
+"REWIRE, cosine familiarity",cifar100,0.9145833333333334,0.62397225
+"REWIRE, cosine familiarity",tinyimagenet,0.9629807692307691,0.7245188375
+"REWIRE, Mahalanobis familiarity",mnist,1.0,0.7246859375
+"REWIRE, Mahalanobis familiarity",nmnist,1.0,0.66381625
+"REWIRE, Mahalanobis familiarity",shd,0.9755952380952382,0.467221875
+"REWIRE, Mahalanobis familiarity",cifar10,1.0,0.6996371874999999
+"REWIRE, Mahalanobis familiarity",cifar100,0.8990384615384615,0.57130640625
+"REWIRE, Mahalanobis familiarity",tinyimagenet,0.9408653846153847,0.5967759
+SLDA on the inputs,mnist,0.9902777777777778,0.763951875
+SLDA on the inputs,nmnist,0.8694444444444445,0.7329484375
+SLDA on the inputs,shd,0.6005952380952382,0.46661546875000004
+SLDA on the inputs,cifar10,0.9958333333333333,0.7963703125
+SLDA on the inputs,cifar100,0.9147435897435898,0.61494710625
+SLDA on the inputs,tinyimagenet,0.9666666666666668,0.73517725
+"RanPAC-style (ReLU, ridge)",mnist,0.9847222222222223,0.75046796875
+"RanPAC-style (ReLU, ridge)",nmnist,0.9430555555555555,0.74204
+"RanPAC-style (ReLU, ridge)",shd,0.7559523809523809,0.5080610937500001
+"RanPAC-style (ReLU, ridge)",cifar10,0.9916666666666666,0.71465359375
+"RanPAC-style (ReLU, ridge)",cifar100,0.9065705128205128,0.5926782
+"RanPAC-style (ReLU, ridge)",tinyimagenet,0.9604166666666666,0.694137825
+HLOP (output confidence),mnist,0.9277777777777778,0.79988703125
+HLOP (output confidence),nmnist,0.7055555555555555,0.79843
+HLOP (output confidence),shd,0.5089285714285714,0.5732762499999999
+HLOP (output confidence),cifar10,0.7902777777777777,0.719073125
+HLOP (output confidence),cifar100,0.5556089743589744,0.624426025
+HLOP (output confidence),tinyimagenet,0.729326923076923,0.70454394375
+"Rehearsal (reservoir, 20 per stream class) (output confidence)",mnist,0.913888888888889,0.777386875
+"Rehearsal (reservoir, 20 per stream class) (output confidence)",nmnist,0.8694444444444445,0.791050625
+"Rehearsal (reservoir, 20 per stream class) (output confidence)",shd,0.7553571428571428,0.5937559375
+"Rehearsal (reservoir, 20 per stream class) (output confidence)",cifar10,0.6208333333333333,0.6398278125
+"Rehearsal (reservoir, 20 per stream class) (output confidence)",cifar100,0.6362179487179487,0.6275012437499999
+"Rehearsal (reservoir, 20 per stream class) (output confidence)",tinyimagenet,0.807852564102564,0.6901252125
+Rehearsal (iso-memory) (output confidence),mnist,0.9541666666666666,0.82909453125
+Rehearsal (iso-memory) (output confidence),nmnist,0.8875,0.79602578125
+Rehearsal (iso-memory) (output confidence),shd,0.7458333333333333,0.5853089062500001
+Rehearsal (iso-memory) (output confidence),cifar10,0.8708333333333333,0.69704140625
+Rehearsal (iso-memory) (output confidence),cifar100,0.7142628205128205,0.6368464875
+Rehearsal (iso-memory) (output confidence),tinyimagenet,0.8761217948717949,0.71332375625
+EWC (output confidence),mnist,0.5916666666666667,0.65376546875
+EWC (output confidence),nmnist,0.5472222222222222,0.59261828125
+EWC (output confidence),shd,0.6470238095238094,0.57050703125
+EWC (output confidence),cifar10,0.3819444444444445,0.5451126562499999
+EWC (output confidence),cifar100,0.4456730769230769,0.46912098750000003
+EWC (output confidence),tinyimagenet,0.3939102564102564,0.5128631125
+Fine-tuning (output confidence),mnist,0.5902777777777778,0.65098359375
+Fine-tuning (output confidence),nmnist,0.5472222222222223,0.58617875
+Fine-tuning (output confidence),shd,0.6619047619047619,0.5438525000000001
+Fine-tuning (output confidence),cifar10,0.3819444444444445,0.54494828125
+Fine-tuning (output confidence),cifar100,0.45064102564102565,0.46863766875
+Fine-tuning (output confidence),tinyimagenet,0.3993589743589744,0.5124760937499999

@@ -1,0 +1,33 @@
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrr@{}}
+\toprule
+REWIRE minus & mean diff. (pts) & 95\% CI & wins & $P$ (Holm) & pairs \\
+\midrule
+Fine-tuning & +37.7 & [+31.5, +43.9] & 100\% & $<0.001$$^{*}$ & 30 \\
+Hyperdimensional bundling & +12.5 & [+10.5, +14.6] & 100\% & $<0.001$$^{*}$ & 30 \\
+Sketch only, ridge readout, gated & +10.4 & [+9.4, +11.3] & 100\% & $<0.001$$^{*}$ & 30 \\
+Sketch only, ridge, selective write (random subset) & +9.4 & [+8.3, +10.5] & 100\% & $<0.001$$^{*}$ & 30 \\
+Sketch only, ridge, recursive (Woodbury) solve & +9.3 & [+7.7, +11.1] & 100\% & $<0.001$$^{*}$ & 30 \\
+Sketch only, ridge readout & +9.3 & [+7.7, +11.1] & 100\% & $<0.001$$^{*}$ & 30 \\
+HLOP-R (subspace refreshed) & +9.2 & [+6.6, +11.8] & 100\% & $<0.001$$^{*}$ & 30 \\
+Ridge on the inputs & +9.0 & [+5.9, +12.5] & 97\% & $<0.001$$^{*}$ & 30 \\
+Sketch only, ridge, selective write (errors and a random quarter) & +8.6 & [+7.6, +9.6] & 100\% & $<0.001$$^{*}$ & 30 \\
+HLOP, competence-gated & +8.3 & [+6.2, +10.6] & 100\% & $<0.001$$^{*}$ & 30 \\
+RanPAC-style (ReLU, ridge) & +7.9 & [+6.2, +9.7] & 100\% & $<0.001$$^{*}$ & 30 \\
+HLOP & +7.1 & [+4.7, +9.7] & 93\% & $<0.001$$^{*}$ & 30 \\
+Dual view, ridge readout & +4.7 & [+3.7, +5.9] & 100\% & $<0.001$$^{*}$ & 30 \\
+Rehearsal, competence-gated & +4.0 & [+3.1, +4.9] & 97\% & $<0.001$$^{*}$ & 30 \\
+Rehearsal (reservoir, 20 per stream class) & +3.9 & [+2.9, +5.0] & 87\% & $<0.001$$^{*}$ & 30 \\
+Sketch only, discriminant readout & +3.7 & [+2.9, +4.5] & 100\% & $<0.001$$^{*}$ & 30 \\
+SLDA on the inputs & +2.7 & [+1.2, +4.3] & 53\% & 0.098 & 30 \\
+REWIRE-gated & +2.3 & [+1.6, +3.0] & 97\% & $<0.001$$^{*}$ & 30 \\
+REWIRE-gated, Mahalanobis familiarity & +2.2 & [+1.5, +3.0] & 97\% & $<0.001$$^{*}$ & 30 \\
+REWIRE, selective write (random subset) & +1.3 & [+0.9, +1.8] & 87\% & $<0.001$$^{*}$ & 30 \\
+REWIRE, sketch width 128 & +1.0 & [+0.3, +1.7] & 50\% & 0.126 & 30 \\
+Rehearsal (iso-memory) & +1.0 & [0.0, +1.9] & 60\% & 0.267 & 30 \\
+REWIRE-gated, budget $B=128$ & +0.9 & [+0.6, +1.3] & 57\% & $<0.001$$^{*}$ & 30 \\
+REWIRE, selective write (errors and a random quarter) & +0.8 & [+0.5, +1.1] & 70\% & $<0.001$$^{*}$ & 30 \\
+REWIRE, sketch width 256 & +0.7 & [+0.2, +1.2] & 47\% & 0.267 & 30 \\
+ReLU layer instead of LIF & +0.6 & [+0.1, +1.3] & 43\% & 0.445 & 30 \\
+REWIRE-gated, $\theta=0.95$ & +0.5 & [+0.3, +0.7] & 73\% & $<0.001$$^{*}$ & 30 \\
+\bottomrule
+\end{tabular*}

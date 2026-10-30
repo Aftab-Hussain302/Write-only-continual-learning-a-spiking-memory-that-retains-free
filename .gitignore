@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+/.venv/
+/data/
+/results/
+/results_selftest/
+/paper_results_*/
+/run_all.log
+.DS_Store

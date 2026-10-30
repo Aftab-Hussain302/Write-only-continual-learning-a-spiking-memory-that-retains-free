@@ -1,0 +1,35 @@
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrrr@{}}
+\toprule
+Method & ACC & BWT & Lifetime (mJ) & Re-adm. (mJ) & AUROC & Stored (KB) \\
+\midrule
+REWIRE & 59.1$\pm$2.0 & \ensuremath{-}3.8 & 193 & 5.0 & 0.65 & 4,336 \\
+REWIRE-gated & 57.6$\pm$2.0 & \ensuremath{-}5.3 & 151 & 3.2 & 0.64 & 4,336 \\
+REWIRE-gated, Mahalanobis familiarity & 57.6$\pm$2.0 & \ensuremath{-}5.3 & 216 & 4.6 & 0.98 & 4,336 \\
+REWIRE-gated, $\theta=0.95$ & 58.7$\pm$2.2 & \ensuremath{-}4.1 & 184 & 4.6 & 0.64 & 4,336 \\
+REWIRE-gated, budget $B=128$ & 58.7$\pm$1.8 & \ensuremath{-}4.2 & 171 & 4.1 & 0.65 & 4,336 \\
+Sketch only, ridge readout & 47.1$\pm$2.1 & \ensuremath{-}5.5 & 49.7 & 1.3 & 0.66 & 1,144 \\
+Sketch only, discriminant readout & 57.5$\pm$1.9 & \ensuremath{-}5.9 & 49.7 & 1.3 & 0.66 & 1,144 \\
+Dual view, ridge readout & 48.6$\pm$2.6 & \ensuremath{-}6.2 & 193 & 5.0 & 0.65 & 4,336 \\
+REWIRE, sketch width 128 & 55.1$\pm$1.0 & \ensuremath{-}6.1 & 68.0 & 1.7 & 0.63 & 1,750 \\
+REWIRE, sketch width 256 & 56.0$\pm$1.5 & \ensuremath{-}5.6 & 99.2 & 2.6 & 0.64 & 2,484 \\
+REWIRE, selective write (errors and a random quarter) & 58.3$\pm$2.2 & \ensuremath{-}4.6 & 186 & 4.7 & 0.64 & 4,336 \\
+REWIRE, selective write (random subset) & 57.1$\pm$1.9 & \ensuremath{-}5.8 & 186 & 4.7 & 0.65 & 4,336 \\
+Sketch only, ridge, selective write (errors and a random quarter) & 48.8$\pm$2.2 & \ensuremath{-}3.9 & 48.4 & 1.2 & 0.65 & 1,144 \\
+Sketch only, ridge, selective write (random subset) & 47.4$\pm$2.0 & \ensuremath{-}5.3 & 48.4 & 1.2 & 0.65 & 1,144 \\
+Sketch only, ridge, recursive (Woodbury) solve & 47.1$\pm$2.1 & \ensuremath{-}5.5 & 45.3 & 1.2 & 0.66 & 1,144 \\
+Sketch only, ridge readout, gated & 48.3$\pm$2.5 & \ensuremath{-}4.4 & 48.0 & 1.2 & 0.66 & 1,144 \\
+ReLU layer instead of LIF & 54.9$\pm$1.1 & \ensuremath{-}4.6 & 201 & 5.2 & 0.70 & 4,336 \\
+SLDA on the inputs & 47.5$\pm$1.7 & \ensuremath{-}8.0 & 54.2 & 1.4 & 0.60 & 2,078 \\
+Ridge on the inputs & 30.7$\pm$2.2 & \ensuremath{-}14.2 & 54.2 & 1.4 & 0.60 & 2,078 \\
+RanPAC-style (ReLU, ridge) & 45.2$\pm$3.8 & \ensuremath{-}4.5 & 57.7 & 1.5 & 0.76 & 1,144 \\
+Hyperdimensional bundling & 35.1$\pm$2.9 & \ensuremath{-}15.4 & 36.9 & 1.0 & 0.65 & 83 \\
+HLOP & 38.7$\pm$1.5 & \ensuremath{-}23.6 & 407 & 8.5 & 0.51 & 906 \\
+HLOP-R (subspace refreshed) & 45.1$\pm$2.1 & \ensuremath{-}17.1 & 637 & 18.1 & 0.49 & 906 \\
+HLOP, competence-gated & 38.6$\pm$1.8 & \ensuremath{-}23.7 & 377 & 7.2 & 0.49 & 906 \\
+Rehearsal (reservoir, 20 per stream class) & 55.2$\pm$4.1 & \ensuremath{-}13.6 & 567 & 14.8 & 0.76 & 4,378 \\
+Rehearsal (iso-memory) & 56.0$\pm$3.3 & \ensuremath{-}13.0 & 567 & 14.8 & 0.75 & 4,323 \\
+Rehearsal, competence-gated & 58.1$\pm$2.8 & \ensuremath{-}10.7 & 453 & 10.0 & 0.70 & 4,378 \\
+EWC & 17.3$\pm$2.1 & \ensuremath{-}64.2 & 316 & 8.1 & 0.65 & 5,768 \\
+Fine-tuning & 16.5$\pm$2.5 & \ensuremath{-}67.6 & 274 & 7.0 & 0.66 & 0 \\
+\bottomrule
+\end{tabular*}

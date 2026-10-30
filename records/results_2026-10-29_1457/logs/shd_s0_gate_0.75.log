@@ -1,0 +1,15 @@
+[data] SHD from /home/ubuntu/data/shd/shd_train.h5: 7987 samples, frames (20, 1, 700, 1)
+[data] small dataset: 293 train / 100 test per class
+  rewire_gated      s0 shd     none   | acc 0.54 bwt -0.10 | recur 0.0/0 steps | S_AUR +0.30 (S_ctrl +1.00) RIF +0.008 | AUROC 0.66 | 104053 uJ 4336.2KB
+[data] small dataset: 293 train / 100 test per class
+  rewire_gated_maha s0 shd     none   | acc 0.54 bwt -0.10 | recur 0.0/0 steps | S_AUR +0.30 (S_ctrl +1.00) RIF +0.008 | AUROC 0.97 | 151747 uJ 4336.2KB
+[data] small dataset: 293 train / 100 test per class
+  abl_sketch_ridge_gated s0 shd     none   | acc 0.46 bwt -0.08 | recur 0.0/0 steps | S_AUR +0.33 (S_ctrl +0.74) RIF +0.011 | AUROC 0.67 | 36667 uJ 1144.2KB
+[data] small dataset: 293 train / 100 test per class
+  hlop_gated        s0 shd     none   | acc 0.38 bwt -0.32 | recur 28.3/40 steps | S_AUR +0.21 (S_ctrl +0.59) RIF +0.016 | AUROC 0.53 | 345716 uJ 905.8KB
+[data] small dataset: 293 train / 100 test per class
+  replay_gated      s0 shd     none   | acc 0.54 bwt -0.17 | recur 13.3/40 steps | S_AUR +0.59 (S_ctrl +0.89) RIF +0.031 | AUROC 0.74 | 327629 uJ 4377.5KB
+done: 5 runs in 350s
+[worker] shd seed 0 gate: 5 rows
+
+/home/ubuntu/rewire/.venv/bin/python3 -m rewire.worker --dataset shd --seed 0 --stage gate --out results/results_2026-10-29_1457/parts/shd/gate/t0.75/s0 --data_root /home/ubuntu/data --theta 0.75 --set rw2_eps=0.1

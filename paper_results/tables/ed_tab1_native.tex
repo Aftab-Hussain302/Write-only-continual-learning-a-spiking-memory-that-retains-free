@@ -1,0 +1,19 @@
+\begin{tabular}{llrrrl}
+\toprule
+Protocol & Method & ACC & BWT & Energy (mJ) & Verdict \\
+\midrule
+Split-MNIST (TIL) & REWIRE & 97.8$\pm$0.6 & \ensuremath{-}0.2$\pm$0.2 & 55.5 & reported \\
+ & SLDA on the inputs & 97.1$\pm$0.7 & 0.0$\pm$0.5 & 16.3 & reported \\
+ & HLOP & 97.6$\pm$0.2 & \ensuremath{-}0.1$\pm$0.1 & 124 & pass \\
+ & EWC & 98.2$\pm$0.5 & \ensuremath{-}0.3$\pm$0.4 & 136 & pass \\
+ & DSD-SNN & 97.3$\pm$0.6 & \ensuremath{-}0.3$\pm$0.4 & 15.6 & pass \\
+ & Fine-tuning & 98.0$\pm$0.5 & \ensuremath{-}0.5$\pm$0.4 & 99.8 & reference \\
+\midrule
+Permuted MNIST (DIL) & REWIRE & 80.6$\pm$0.6 & \ensuremath{-}4.4$\pm$0.3 & 419 & reported \\
+ & SLDA on the inputs & 82.0$\pm$1.1 & \ensuremath{-}2.2$\pm$0.3 & 101 & reported \\
+ & HLOP & 83.7$\pm$1.5 & \ensuremath{-}8.4$\pm$1.2 & 1,279 & pass \\
+ & EWC & 81.3$\pm$2.2 & \ensuremath{-}10.4$\pm$2.4 & 1,302 & fail \\
+ & DSD-SNN & 49.0$\pm$1.2 & \ensuremath{-}37.7$\pm$0.6 & 211 & fail \\
+ & Fine-tuning & 77.6$\pm$2.8 & \ensuremath{-}15.1$\pm$3.3 & 938 & reference \\
+\bottomrule
+\end{tabular}

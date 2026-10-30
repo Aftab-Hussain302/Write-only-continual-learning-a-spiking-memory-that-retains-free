@@ -1,0 +1,49 @@
+python 3.11.2 on aarch64
+   numpy       1.26.4
+   tensorflow  2.15.1
+   quantizeml  0.12.1
+   cnn2snn     2.10.0
+   akida       2.10.0
+   torch       2.7.1+cpu
+   h5py        3.12.1
+   board: Raspberry Pi Compute Module 4 Rev 1.1
+[ok]   akida.devices() (0.1 s)
+   device: PCIe/NSoC_v2/0; version BC.00.000.002
+
+== SHD-size network: 700 -> 1024 -> 512
+ 1/80 [..............................] - ETA: 49s 9/80 [==>...........................] - ETA: 0s 18/80 [=====>........................] - ETA: 0s27/80 [=========>....................] - ETA: 0s36/80 [============>.................] - ETA: 0s45/80 [===============>..............] - ETA: 0s54/80 [===================>..........] - ETA: 0s63/80 [======================>.......] - ETA: 0s72/80 [==========================>...] - ETA: 0s80/80 [==============================] - 1s 6ms/step
+WARNING:tensorflow:5 out of the last 5 calls to <function NonTrackVariable.set_var at 0x7f0903d260> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 6 calls to <function NonTrackVariable.set_var at 0x7f0903f920> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[ok]   quantise and convert for Akida 1.0 (18.2 s)
+[ok]   software model, 2000 frames (0.5 s)
+[ok]   chip, 2000 frames x 3 runs (power measurement on) (12.3 s)
+   chip output == software model: 100.00% of values equal; max |diff| 0
+   where it ran: ['HW/expansion-sketch: BackendType.Hardware']
+   floor_mW: 900.0
+   avg_power_mW: 921.0116959064327
+   fps: 716.7602641533825
+   latency_ms: 1.3951666268514096
+   energy_per_frame_uJ: 1284.9647345928927
+   net_energy_per_frame_uJ: 29.31481690220527
+   Average framerate = 716.59 fps | Last inference power range (mW):  Avg 920.51 / Min 913.00 / Max 922.00 / Std 2.29  | Last inference energy consumed (mJ/frame): 1.28
+   Average framerate = 716.85 fps | Last inference power range (mW):  Avg 921.37 / Min 918.00 / Max 922.00 / Std 1.36  | Last inference energy consumed (mJ/frame): 1.29
+   Average framerate = 716.85 fps | Last inference power range (mW):  Avg 921.15 / Min 913.00 / Max 922.00 / Std 2.17  | Last inference energy consumed (mJ/frame): 1.29
+
+== N-MNIST-size network: 2312 -> 1024 -> 512
+ 1/80 [..............................] - ETA: 40s 7/80 [=>............................] - ETA: 0s 13/80 [===>..........................] - ETA: 0s19/80 [======>.......................] - ETA: 0s25/80 [========>.....................] - ETA: 0s32/80 [===========>..................] - ETA: 0s38/80 [=============>................] - ETA: 0s44/80 [===============>..............] - ETA: 0s50/80 [=================>............] - ETA: 0s56/80 [====================>.........] - ETA: 0s62/80 [======================>.......] - ETA: 0s68/80 [========================>.....] - ETA: 0s74/80 [==========================>...] - ETA: 0s80/80 [==============================] - ETA: 0s80/80 [==============================] - 1s 9ms/step
+[ok]   quantise and convert for Akida 1.0 (11.2 s)
+[ok]   software model, 2000 frames (1.0 s)
+[ok]   chip, 2000 frames x 3 runs (power measurement on) (22.4 s)
+   chip output == software model: 100.00% of values equal; max |diff| 0
+   where it ran: ['HW/expansion-sketch: BackendType.Hardware']
+   floor_mW: 900.0
+   avg_power_mW: 921.7846846846847
+   fps: 376.6717052964439
+   latency_ms: 2.654831743236438
+   energy_per_frame_uJ: 2447.1847382882884
+   net_energy_per_frame_uJ: 57.83467241729774
+   Average framerate = 377.00 fps | Last inference power range (mW):  Avg 921.76 / Min 915.00 / Max 922.00 / Std 1.23  | Last inference energy consumed (mJ/frame): 2.44
+   Average framerate = 376.72 fps | Last inference power range (mW):  Avg 921.80 / Min 915.00 / Max 922.00 / Std 1.03  | Last inference energy consumed (mJ/frame): 2.45
+   Average framerate = 376.29 fps | Last inference power range (mW):  Avg 921.80 / Min 913.00 / Max 922.00 / Std 1.15  | Last inference energy consumed (mJ/frame): 2.45
+
+PROBE DONE

@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.eps binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.xlsx binary
+records/** linguist-generated=true
+paper_results/** linguist-generated=true
+docs/** linguist-documentation=true

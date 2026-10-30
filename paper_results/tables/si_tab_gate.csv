@@ -1,0 +1,121 @@
+dataset,quantity,arm,value
+mnist,ACC,rewire,91.28749787807465
+mnist,ACC,rewire_gated,87.83749788999557
+mnist,ACC,rewire_gated_maha,87.89999812841415
+mnist,ACC,rewire_gated_t095,90.62499776482582
+mnist,ACC,rewire_gated_b128,89.99999806284904
+mnist,energy per re-admission (mJ),rewire,5.148485289968834
+mnist,energy per re-admission (mJ),rewire_gated,1.3796799164265843
+mnist,energy per re-admission (mJ),rewire_gated_maha,2.1099187287731778
+mnist,energy per re-admission (mJ),rewire_gated_t095,3.257334231508615
+mnist,energy per re-admission (mJ),rewire_gated_b128,2.5813781618972973
+mnist,lifetime energy (mJ),rewire,159.05759797980005
+mnist,lifetime energy (mJ),rewire_gated,68.60626901478606
+mnist,lifetime energy (mJ),rewire_gated_maha,100.89818757470431
+mnist,lifetime energy (mJ),rewire_gated_t095,113.6699725767548
+mnist,lifetime energy (mJ),rewire_gated_b128,97.44702690608318
+mnist,recurrences skipped (\%),rewire,0.0
+mnist,recurrences skipped (\%),rewire_gated,0.9
+mnist,recurrences skipped (\%),rewire_gated_maha,0.8833333333333334
+mnist,recurrences skipped (\%),rewire_gated_t095,0.4833333333333333
+mnist,recurrences skipped (\%),rewire_gated_b128,0.6333333333333333
+nmnist,ACC,rewire,91.4874978363514
+nmnist,ACC,rewire_gated,86.91249802708626
+nmnist,ACC,rewire_gated_maha,86.82499796152115
+nmnist,ACC,rewire_gated_t095,90.18749803304672
+nmnist,ACC,rewire_gated_b128,89.68749791383743
+nmnist,energy per re-admission (mJ),rewire,5.375615412690858
+nmnist,energy per re-admission (mJ),rewire_gated,1.3675926752434164
+nmnist,energy per re-admission (mJ),rewire_gated_maha,1.9789093650058427
+nmnist,energy per re-admission (mJ),rewire_gated_t095,3.2148707346807184
+nmnist,energy per re-admission (mJ),rewire_gated_b128,2.713587193468232
+nmnist,lifetime energy (mJ),rewire,166.0569423212754
+nmnist,lifetime energy (mJ),rewire_gated,69.86439662253677
+nmnist,lifetime energy (mJ),rewire_gated_maha,99.30218424043501
+nmnist,lifetime energy (mJ),rewire_gated_t095,114.19907004903203
+nmnist,lifetime energy (mJ),rewire_gated_b128,102.16826505993235
+nmnist,recurrences skipped (\%),rewire,0.0
+nmnist,recurrences skipped (\%),rewire_gated,0.9416666666666668
+nmnist,recurrences skipped (\%),rewire_gated_maha,0.9333333333333333
+nmnist,recurrences skipped (\%),rewire_gated_t095,0.5416666666666667
+nmnist,recurrences skipped (\%),rewire_gated_b128,0.65
+shd,ACC,rewire,59.06249862164259
+shd,ACC,rewire_gated,57.612498477101326
+shd,ACC,rewire_gated_maha,57.612498477101326
+shd,ACC,rewire_gated_t095,58.73749867081642
+shd,ACC,rewire_gated_b128,58.72499842196703
+shd,energy per re-admission (mJ),rewire,4.953078664244287
+shd,energy per re-admission (mJ),rewire_gated,3.20101033531459
+shd,energy per re-admission (mJ),rewire_gated_maha,4.583303804617923
+shd,energy per re-admission (mJ),rewire_gated_t095,4.575794958127831
+shd,energy per re-admission (mJ),rewire_gated_b128,4.055579653703018
+shd,lifetime energy (mJ),rewire,192.73611431718365
+shd,lifetime energy (mJ),rewire_gated,150.68647442287093
+shd,lifetime energy (mJ),rewire_gated_maha,215.5033471081509
+shd,lifetime energy (mJ),rewire_gated_t095,183.68130537038874
+shd,lifetime energy (mJ),rewire_gated_b128,171.1961380641932
+shd,recurrences skipped (\%),rewire,0.0
+shd,recurrences skipped (\%),rewire_gated,0.4416666666666666
+shd,recurrences skipped (\%),rewire_gated_maha,0.4416666666666666
+shd,recurrences skipped (\%),rewire_gated_t095,0.13333333333333333
+shd,recurrences skipped (\%),rewire_gated_b128,0.25
+cifar10,ACC,rewire,85.3624977171421
+cifar10,ACC,rewire_gated,81.41249820590019
+cifar10,ACC,rewire_gated_maha,81.52499794960022
+cifar10,ACC,rewire_gated_t095,84.72499772906303
+cifar10,ACC,rewire_gated_b128,83.24999764561653
+cifar10,energy per re-admission (mJ),rewire,4.660587290028393
+cifar10,energy per re-admission (mJ),rewire_gated,1.4199829537016382
+cifar10,energy per re-admission (mJ),rewire_gated_maha,2.310899281266858
+cifar10,energy per re-admission (mJ),rewire_gated_t095,3.589888495768632
+cifar10,energy per re-admission (mJ),rewire_gated_b128,2.1314276219623154
+cifar10,lifetime energy (mJ),rewire,144.07033745032615
+cifar10,lifetime energy (mJ),rewire_gated,66.29583337848405
+cifar10,lifetime energy (mJ),rewire_gated_maha,102.44401230364932
+cifar10,lifetime energy (mJ),rewire_gated_t095,118.37356638809187
+cifar10,lifetime energy (mJ),rewire_gated_b128,83.37050541674029
+cifar10,recurrences skipped (\%),rewire,0.0
+cifar10,recurrences skipped (\%),rewire_gated,0.8
+cifar10,recurrences skipped (\%),rewire_gated_maha,0.7833333333333333
+cifar10,recurrences skipped (\%),rewire_gated_t095,0.29166666666666663
+cifar10,recurrences skipped (\%),rewire_gated_b128,0.6333333333333333
+cifar100,ACC,rewire,63.552498646080494
+cifar100,ACC,rewire_gated,63.479998514056206
+cifar100,ACC,rewire_gated_maha,63.479998514056206
+cifar100,ACC,rewire_gated_t095,63.54499866068363
+cifar100,ACC,rewire_gated_b128,63.552498646080494
+cifar100,energy per re-admission (mJ),rewire,5.640283000452894
+cifar100,energy per re-admission (mJ),rewire_gated,4.002919643015469
+cifar100,energy per re-admission (mJ),rewire_gated_maha,5.53613349119547
+cifar100,energy per re-admission (mJ),rewire_gated_t095,5.626009103341824
+cifar100,energy per re-admission (mJ),rewire_gated_b128,5.820779066154513
+cifar100,lifetime energy (mJ),rewire,535.3935052722074
+cifar100,lifetime energy (mJ),rewire_gated,509.1956915532086
+cifar100,lifetime energy (mJ),rewire_gated_maha,700.3740814132886
+cifar100,lifetime energy (mJ),rewire_gated_t095,535.1651229184303
+cifar100,lifetime energy (mJ),rewire_gated_b128,538.2814423234333
+cifar100,recurrences skipped (\%),rewire,0.0
+cifar100,recurrences skipped (\%),rewire_gated,0.35
+cifar100,recurrences skipped (\%),rewire_gated_maha,0.35
+cifar100,recurrences skipped (\%),rewire_gated_t095,0.0375
+cifar100,recurrences skipped (\%),rewire_gated_b128,0.0
+tinyimagenet,ACC,rewire,71.20999812334776
+tinyimagenet,ACC,rewire_gated,71.13499816507101
+tinyimagenet,ACC,rewire_gated_maha,71.13499816507101
+tinyimagenet,ACC,rewire_gated_t095,71.16999810934067
+tinyimagenet,ACC,rewire_gated_b128,71.22999808937311
+tinyimagenet,energy per re-admission (mJ),rewire,6.728500573146436
+tinyimagenet,energy per re-admission (mJ),rewire_gated,3.0270212311431592
+tinyimagenet,energy per re-admission (mJ),rewire_gated_maha,4.10747394269316
+tinyimagenet,energy per re-admission (mJ),rewire_gated_t095,5.982446293852236
+tinyimagenet,energy per re-admission (mJ),rewire_gated_b128,6.837976323713043
+tinyimagenet,lifetime energy (mJ),rewire,638.7497255088149
+tinyimagenet,lifetime energy (mJ),rewire_gated,579.5260560367624
+tinyimagenet,lifetime energy (mJ),rewire_gated_maha,763.4602677107624
+tinyimagenet,lifetime energy (mJ),rewire_gated_t095,626.8128570401077
+tinyimagenet,lifetime energy (mJ),rewire_gated_b128,640.5013375178805
+tinyimagenet,recurrences skipped (\%),rewire,0.0
+tinyimagenet,recurrences skipped (\%),rewire_gated,0.625
+tinyimagenet,recurrences skipped (\%),rewire_gated_maha,0.625
+tinyimagenet,recurrences skipped (\%),rewire_gated_t095,0.15
+tinyimagenet,recurrences skipped (\%),rewire_gated_b128,0.0125

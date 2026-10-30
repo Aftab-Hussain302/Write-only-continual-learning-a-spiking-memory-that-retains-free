@@ -1,0 +1,20 @@
+{
+ "grid": [
+  0.01,
+  0.03,
+  0.1,
+  0.3,
+  1.0
+ ],
+ "dev_final_acc": {
+  "0.01": 0.6426249828189612,
+  "0.03": 0.6456249833106995,
+  "0.1": 0.6492499820888042,
+  "0.3": 0.6493749860674143,
+  "1.0": 0.6453749869018793
+ },
+ "selected": 0.1,
+ "dataset": "cifar100",
+ "seed": 100,
+ "rule": "highest final accuracy on the development stream; within 0.1 points tie -> closest to 0.1 (log scale)"
+}

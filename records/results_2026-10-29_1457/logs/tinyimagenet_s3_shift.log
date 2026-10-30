@@ -1,0 +1,21 @@
+[data] Tiny-ImageNet-200 from /home/ubuntu/data/tiny-imagenet-200: 100000 samples at 64x64, 200 classes (uint8, 1.2 GB)
+[data] pretrained ResNet-18 features from cache: (100000, 512)
+[data] shifted features (rotate, seed 3) for tinyimagenet: (90000, 512) (cached)
+[data] small dataset: 331 train / 100 test per class
+  rewire            s3 tinyimagenet domain | acc 0.70 bwt -0.03 | recur 0.0/0 steps | S_AUR -0.15 (S_ctrl -2.21) RIF +0.009 | AUROC 0.89 | 638882 uJ 6497.6KB
+[data] small dataset: 331 train / 100 test per class
+  rewire_gated      s3 tinyimagenet domain | acc 0.70 bwt -0.03 | recur 0.0/0 steps | S_AUR -0.15 (S_ctrl -2.21) RIF +0.009 | AUROC 0.89 | 641881 uJ 6497.6KB
+[data] small dataset: 331 train / 100 test per class
+  rewire_gated_maha s3 tinyimagenet domain | acc 0.70 bwt -0.03 | recur 0.0/0 steps | S_AUR -0.15 (S_ctrl -2.21) RIF +0.009 | AUROC 0.97 | 842279 uJ 6497.6KB
+[data] small dataset: 331 train / 100 test per class
+  ctrl_slda_input   s3 tinyimagenet domain | acc 0.72 bwt -0.04 | recur 0.0/0 steps | S_AUR -0.27 (S_ctrl -4.38) RIF +0.008 | AUROC 0.89 | 105836 uJ 2225.6KB
+[data] small dataset: 331 train / 100 test per class
+  hlop              s3 tinyimagenet domain | acc 0.61 bwt -0.08 | recur 40.0/40 steps | S_AUR +0.24 (S_ctrl +0.44) RIF +0.015 | AUROC 0.39 | 2948487 uJ 3872.0KB
+[data] small dataset: 331 train / 100 test per class
+  replay            s3 tinyimagenet domain | acc 0.64 bwt -0.27 | recur 40.0/40 steps | S_AUR +0.58 (S_ctrl +0.58) RIF +0.003 | AUROC 0.49 | 1940149 uJ 3212.5KB
+[data] small dataset: 331 train / 100 test per class
+  naive             s3 tinyimagenet domain | acc 0.11 bwt -0.85 | recur 40.0/40 steps | S_AUR +0.23 (S_ctrl +0.30) RIF +0.074 | AUROC 0.32 | 922436 uJ 0.0KB
+done: 7 runs in 1487s
+[worker] tinyimagenet seed 3 shift: 7 rows
+
+/home/ubuntu/rewire/.venv/bin/python3 -m rewire.worker --dataset tinyimagenet --seed 3 --stage shift --out results/results_2026-10-29_1457/parts/tinyimagenet/shift/s3 --data_root /home/ubuntu/data --set rw2_eps=0.1

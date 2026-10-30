@@ -1,0 +1,41 @@
+{
+ "compared_arms": [
+  "abl_dualview_ridge",
+  "abl_select_errors",
+  "abl_select_random",
+  "abl_sketch_lda",
+  "abl_sketch_ridge",
+  "abl_sketch_ridge_gated",
+  "abl_sketch_ridge_select_errors",
+  "abl_sketch_ridge_select_random",
+  "abl_sketch_ridge_woodbury",
+  "abl_width128",
+  "abl_width256",
+  "ctrl_relu",
+  "ctrl_slda_input",
+  "ewc",
+  "hd_memory",
+  "hlop",
+  "hlop_adaptive",
+  "hlop_gated",
+  "naive",
+  "ranpac",
+  "replay",
+  "replay_gated",
+  "replay_iso",
+  "rewire",
+  "rewire_gated",
+  "rewire_gated_b128",
+  "rewire_gated_maha",
+  "rewire_gated_t095",
+  "ridge_input"
+ ],
+ "max_abs_difference": {
+  "final_acc": 0.0,
+  "bwt": 0.0,
+  "lifetime_energy_uJ": 0.0,
+  "recog_auroc_fam_x1": 0.0,
+  "retention_mean": 0.0
+ },
+ "bitwise_identical": true
+}

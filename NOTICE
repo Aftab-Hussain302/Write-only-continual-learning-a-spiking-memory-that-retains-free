@@ -1,0 +1,9 @@
+REWIRE
+Copyright 2026 the REWIRE authors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+rewire/baselines/hlop_official/hlop_module.py is copied unmodified from HLOP-SNN
+(https://github.com/pkuxmq/HLOP-SNN; Xiao, Meng, Zhang, He and Lin, "Hebbian Learning based Orthogonal Projection for
+Continual Learning of Spiking Neural Networks", ICLR 2024), Apache License 2.0; see rewire/baselines/hlop_official/LICENSE
+and rewire/baselines/hlop_official/NOTICE.

@@ -1,0 +1,15 @@
+[data] mnist: 60000 samples
+  native split  naive            seed 1: acc 0.976 bwt -0.006 energy 99.8 mJ diag [1.0, 0.97, 0.98, 1.0, 0.95]
+  native split  ewc              seed 1: acc 0.978 bwt -0.006 energy 135.8 mJ diag [1.0, 0.97, 0.99, 1.0, 0.95]
+  native split  hlop             seed 1: acc 0.976 bwt -0.000 energy 123.6 mJ diag [1.0, 0.96, 0.99, 1.0, 0.94]
+  native split  dsd_snn          seed 1: acc 0.972 bwt -0.005 energy 15.6 mJ diag [0.99, 0.94, 0.99, 1.0, 0.95]
+  native split  rewire           seed 1: acc 0.977 bwt -0.001 energy 55.5 mJ diag [1.0, 0.97, 0.98, 0.98, 0.95]
+  native split  ctrl_slda_input  seed 1: acc 0.968 bwt -0.004 energy 16.3 mJ diag [0.98, 0.96, 0.97, 1.0, 0.94]
+  native pmnist naive            seed 1: acc 0.768 bwt -0.157 energy 938.4 mJ diag [0.91, 0.91, 0.91, 0.91, 0.91, 0.92, 0.9, 0.9, 0.91, 0.91]
+  native pmnist ewc              seed 1: acc 0.798 bwt -0.119 energy 1301.6 mJ diag [0.91, 0.91, 0.91, 0.91, 0.9, 0.91, 0.9, 0.91, 0.91, 0.9]
+  native pmnist hlop             seed 1: acc 0.828 bwt -0.092 energy 1279.3 mJ diag [0.91, 0.91, 0.91, 0.92, 0.92, 0.91, 0.9, 0.91, 0.91, 0.91]
+  native pmnist dsd_snn          seed 1: acc 0.490 bwt -0.378 energy 211.2 mJ diag [0.88, 0.86, 0.86, 0.85, 0.85, 0.85, 0.86, 0.85, 0.74, 0.72]
+  native pmnist rewire           seed 1: acc 0.808 bwt -0.048 energy 419.1 mJ diag [0.91, 0.87, 0.86, 0.87, 0.86, 0.84, 0.84, 0.84, 0.82, 0.82]
+  native pmnist ctrl_slda_input  seed 1: acc 0.827 bwt -0.022 energy 101.3 mJ diag [0.86, 0.86, 0.86, 0.86, 0.85, 0.85, 0.83, 0.85, 0.84, 0.83]
+
+/home/ubuntu/rewire/.venv/bin/python3 -m rewire.worker --dataset mnist --seed 1 --stage native --out results/results_2026-10-29_1457/parts/mnist/native/s1 --data_root /home/ubuntu/data --set rw2_eps=0.1

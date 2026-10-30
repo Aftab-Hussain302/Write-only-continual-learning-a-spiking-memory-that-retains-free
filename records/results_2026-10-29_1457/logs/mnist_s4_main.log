@@ -1,0 +1,34 @@
+[data] mnist: 60000 samples
+  rewire            s4 mnist   none   | acc 0.93 bwt +0.01 | recur 0.0/0 steps | S_AUR +0.77 (S_ctrl +1.00) RIF +0.007 | AUROC 0.98 | 159054 uJ 4216.1KB
+  rewire_gated      s4 mnist   none   | acc 0.90 bwt -0.02 | recur 0.0/0 steps | S_AUR +0.66 (S_ctrl +1.00) RIF +0.006 | AUROC 0.98 | 66800 uJ 4216.1KB
+  rewire_gated_maha s4 mnist   none   | acc 0.90 bwt -0.02 | recur 0.0/0 steps | S_AUR +0.66 (S_ctrl +1.00) RIF +0.006 | AUROC 1.00 | 95973 uJ 4216.1KB
+  rewire_gated_t095 s4 mnist   none   | acc 0.92 bwt -0.00 | recur 0.0/0 steps | S_AUR +0.74 (S_ctrl +1.00) RIF +0.006 | AUROC 0.98 | 102851 uJ 4216.1KB
+  rewire_gated_b128 s4 mnist   none   | acc 0.92 bwt -0.00 | recur 0.0/0 steps | S_AUR +0.74 (S_ctrl +1.00) RIF +0.006 | AUROC 0.98 | 93838 uJ 4216.1KB
+  abl_sketch_ridge  s4 mnist   none   | acc 0.90 bwt +0.02 | recur 0.0/0 steps | S_AUR +0.78 (S_ctrl +1.00) RIF +0.008 | AUROC 0.98 | 46869 uJ 1084.1KB
+  abl_sketch_ridge_gated s4 mnist   none   | acc 0.85 bwt -0.02 | recur 0.0/0 steps | S_AUR +0.60 (S_ctrl +1.00) RIF +0.006 | AUROC 0.98 | 30527 uJ 1084.1KB
+  abl_sketch_lda    s4 mnist   none   | acc 0.92 bwt +0.02 | recur 0.0/0 steps | S_AUR +0.69 (S_ctrl +1.00) RIF +0.008 | AUROC 0.98 | 46869 uJ 1084.1KB
+  abl_dualview_ridge s4 mnist   none   | acc 0.90 bwt +0.01 | recur 0.0/0 steps | S_AUR +0.77 (S_ctrl +1.00) RIF +0.007 | AUROC 0.98 | 159054 uJ 4216.1KB
+  abl_width128      s4 mnist   none   | acc 0.91 bwt +0.00 | recur 0.0/0 steps | S_AUR +0.69 (S_ctrl +1.00) RIF +0.007 | AUROC 0.99 | 61849 uJ 1675.1KB
+  abl_width256      s4 mnist   none   | acc 0.92 bwt +0.01 | recur 0.0/0 steps | S_AUR +0.72 (S_ctrl +1.00) RIF +0.006 | AUROC 0.99 | 86096 uJ 2394.1KB
+  abl_select_errors s4 mnist   none   | acc 0.92 bwt +0.00 | recur 0.0/0 steps | S_AUR +0.71 (S_ctrl +1.00) RIF +0.007 | AUROC 0.97 | 150755 uJ 4216.1KB
+  abl_select_random s4 mnist   none   | acc 0.92 bwt +0.00 | recur 0.0/0 steps | S_AUR +0.74 (S_ctrl +1.00) RIF +0.007 | AUROC 0.98 | 150818 uJ 4216.1KB
+  abl_sketch_ridge_select_errors s4 mnist   none   | acc 0.88 bwt +0.01 | recur 0.0/0 steps | S_AUR +0.69 (S_ctrl +1.00) RIF +0.007 | AUROC 0.98 | 44838 uJ 1084.1KB
+  abl_sketch_ridge_select_random s4 mnist   none   | acc 0.87 bwt -0.00 | recur 0.0/0 steps | S_AUR +0.67 (S_ctrl +1.00) RIF +0.007 | AUROC 0.98 | 44860 uJ 1084.1KB
+  abl_sketch_ridge_woodbury s4 mnist   none   | acc 0.90 bwt +0.02 | recur 0.0/0 steps | S_AUR +0.78 (S_ctrl +1.00) RIF +0.008 | AUROC 0.98 | 43835 uJ 1084.1KB
+  ctrl_slda_input   s4 mnist   none   | acc 0.89 bwt +0.01 | recur 0.0/0 steps | S_AUR +0.62 (S_ctrl +1.00) RIF +0.006 | AUROC 0.99 | 56877 uJ 2493.0KB
+  ctrl_relu         s4 mnist   none   | acc 0.93 bwt +0.01 | recur 0.0/0 steps | S_AUR +0.75 (S_ctrl +1.00) RIF +0.007 | AUROC 0.98 | 158967 uJ 4216.1KB
+  ranpac            s4 mnist   none   | acc 0.91 bwt +0.01 | recur 0.0/0 steps | S_AUR +0.81 (S_ctrl +1.00) RIF +0.007 | AUROC 0.98 | 46783 uJ 1084.1KB
+  ridge_input       s4 mnist   none   | acc 0.85 bwt +0.00 | recur 0.0/0 steps | S_AUR +0.71 (S_ctrl +1.00) RIF +0.006 | AUROC 0.99 | 56877 uJ 2493.0KB
+  hd_memory         s4 mnist   none   | acc 0.82 bwt -0.03 | recur 0.0/0 steps | S_AUR +0.31 (S_ctrl +1.00) RIF +0.002 | AUROC 0.98 | 38344 uJ 41.3KB
+  hlop              s4 mnist   none   | acc 0.92 bwt +0.03 | recur 40.0/40 steps | S_AUR +0.86 (S_ctrl +1.00) RIF +0.007 | AUROC 0.99 | 459366 uJ 501.0KB
+  hlop_adaptive     s4 mnist   none   | acc 0.92 bwt +0.02 | recur 40.0/40 steps | S_AUR +0.84 (S_ctrl +1.00) RIF +0.008 | AUROC 0.98 | 586792 uJ 501.0KB
+  hlop_gated        s4 mnist   none   | acc 0.90 bwt +0.01 | recur 5.0/40 steps | S_AUR +0.83 (S_ctrl +1.00) RIF +0.007 | AUROC 0.98 | 167115 uJ 501.0KB
+  replay            s4 mnist   none   | acc 0.92 bwt -0.03 | recur 40.0/40 steps | S_AUR +0.88 (S_ctrl +1.00) RIF +0.004 | AUROC 0.98 | 841637 uJ 491.2KB
+  replay_iso        s4 mnist   none   | acc 0.95 bwt -0.00 | recur 40.0/40 steps | S_AUR +0.91 (S_ctrl +1.00) RIF +0.004 | AUROC 1.00 | 841702 uJ 4215.5KB
+  replay_gated      s4 mnist   none   | acc 0.90 bwt -0.05 | recur 5.0/40 steps | S_AUR +0.88 (S_ctrl +1.00) RIF +0.006 | AUROC 0.96 | 265645 uJ 491.2KB
+  ewc               s4 mnist   none   | acc 0.77 bwt -0.20 | recur 40.0/40 steps | S_AUR +0.66 (S_ctrl +0.75) RIF +0.021 | AUROC 0.68 | 468425 uJ 6360.1KB
+  naive             s4 mnist   none   | acc 0.77 bwt -0.20 | recur 40.0/40 steps | S_AUR +0.66 (S_ctrl +0.74) RIF +0.022 | AUROC 0.67 | 414067 uJ 0.0KB
+done: 29 runs in 619s
+[worker] mnist seed 4 main: 29 rows
+
+/home/ubuntu/rewire/.venv/bin/python3 -m rewire.worker --dataset mnist --seed 4 --stage main --out results/results_2026-10-29_1457/parts/mnist/main/s4 --data_root /home/ubuntu/data --set rw2_eps=0.1

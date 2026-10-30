@@ -1,0 +1,14 @@
+[data] N-MNIST from /home/ubuntu/data/nmnist/Train: 7000 samples, frames (6, 2, 34, 34)
+  rewire            s4 nmnist  none   | acc 0.91 bwt +0.00 | recur 0.0/0 steps | S_AUR +0.71 (S_ctrl +1.00) RIF +0.007 | AUROC 0.92 | 165826 uJ 4216.1KB
+done: 1 runs in 17s
+  rewire            s4 nmnist  none   | acc 0.92 bwt +0.00 | recur 0.0/0 steps | S_AUR +0.73 (S_ctrl +1.00) RIF +0.008 | AUROC 0.92 | 165826 uJ 4216.1KB
+done: 1 runs in 16s
+  rewire            s4 nmnist  none   | acc 0.92 bwt +0.00 | recur 0.0/0 steps | S_AUR +0.76 (S_ctrl +1.00) RIF +0.007 | AUROC 0.92 | 165826 uJ 4216.1KB
+done: 1 runs in 11s
+  rewire            s4 nmnist  none   | acc 0.93 bwt +0.00 | recur 0.0/0 steps | S_AUR +0.76 (S_ctrl +1.00) RIF +0.007 | AUROC 0.92 | 165826 uJ 4216.1KB
+done: 1 runs in 13s
+  rewire            s4 nmnist  none   | acc 0.93 bwt -0.00 | recur 0.0/0 steps | S_AUR +0.72 (S_ctrl +1.00) RIF +0.007 | AUROC 0.92 | 165826 uJ 4216.1KB
+done: 1 runs in 15s
+[worker] nmnist seed 4 eps_sens: 0 rows
+
+/home/ubuntu/rewire/.venv/bin/python3 -m rewire.worker --dataset nmnist --seed 4 --stage eps_sens --out results/results_2026-10-29_1457/parts/nmnist/eps_sens/s4 --data_root /home/ubuntu/data --set rw2_eps=0.1

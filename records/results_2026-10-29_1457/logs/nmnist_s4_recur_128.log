@@ -1,0 +1,12 @@
+[data] N-MNIST from /home/ubuntu/data/nmnist/Train: 7000 samples, frames (6, 2, 34, 34)
+  rewire            s4 nmnist  none   | acc 0.93 bwt +0.00 | recur 0.0/0 steps | S_AUR +0.79 (S_ctrl +1.00) RIF +0.002 | AUROC 0.94 | 724612 uJ 4216.1KB
+  rewire_gated      s4 nmnist  none   | acc 0.89 bwt -0.03 | recur 0.0/0 steps | S_AUR +0.71 (S_ctrl +1.00) RIF +0.001 | AUROC 0.93 | 186426 uJ 4216.1KB
+  abl_sketch_ridge  s4 nmnist  none   | acc 0.90 bwt +0.02 | recur 0.0/0 steps | S_AUR +0.85 (S_ctrl +nan) RIF +0.002 | AUROC 0.93 | 159676 uJ 1084.1KB
+  ctrl_slda_input   s4 nmnist  none   | acc 0.91 bwt -0.01 | recur 0.0/0 steps | S_AUR +0.81 (S_ctrl +1.00) RIF +0.002 | AUROC 0.94 | 5533208 uJ 21151.3KB
+  naive             s4 nmnist  none   | acc 0.88 bwt -0.08 | recur 40.0/40 steps | S_AUR +0.87 (S_ctrl +1.00) RIF +0.011 | AUROC 0.77 | 749157 uJ 0.0KB
+  replay            s4 nmnist  none   | acc 0.93 bwt +0.03 | recur 40.0/40 steps | S_AUR +0.88 (S_ctrl +1.00) RIF +0.001 | AUROC 0.98 | 1543767 uJ 2168.8KB
+  hlop              s4 nmnist  none   | acc 0.95 bwt +0.05 | recur 40.0/40 steps | S_AUR +0.91 (S_ctrl +1.00) RIF +0.002 | AUROC 0.94 | 984304 uJ 978.5KB
+done: 7 runs in 671s
+[worker] nmnist seed 4 recur: 7 rows
+
+/home/ubuntu/rewire/.venv/bin/python3 -m rewire.worker --dataset nmnist --seed 4 --stage recur --out results/results_2026-10-29_1457/parts/nmnist/recur/n128/s4 --data_root /home/ubuntu/data --n-recur 128 --set rw2_eps=0.1

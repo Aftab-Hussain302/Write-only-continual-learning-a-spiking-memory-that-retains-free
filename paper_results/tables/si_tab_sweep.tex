@@ -1,0 +1,48 @@
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llrrrrrr@{}}
+\toprule
+Dataset & Method & \multicolumn{5}{c}{lifetime energy (mJ) at $R$ recurrences} & growth \\
+\midrule
+\multicolumn{2}{l}{MNIST: $R=$ 8, 16, 24, 32, 64, 128} &  &  &  &  &  &  \\
+ & REWIRE & 76.7 & 118 & 159 & 200 & 365 & 9.06$\times$ \\
+ & REWIRE-gated & 46.5 & 57.6 & 68.6 & 75.1 & 110 & 3.86$\times$ \\
+ & SLDA on the inputs & 27.5 & 42.2 & 56.9 & 71.6 & 130 & 9.03$\times$ \\
+ & HLOP & 234 & 347 & 459 & 572 & 1,022 & 8.21$\times$ \\
+ & Rehearsal (reservoir, 20 per stream class) & 400 & 621 & 842 & 1,062 & 1,945 & 9.27$\times$ \\
+ & Fine-tuning & 201 & 308 & 414 & 521 & 947 & 8.96$\times$ \\
+\multicolumn{2}{l}{N-MNIST: $R=$ 8, 16, 24, 32, 64, 128} &  &  &  &  &  &  \\
+ & REWIRE & 80.0 & 123 & 166 & 209 & 381 & 9.06$\times$ \\
+ & REWIRE-gated & 47.7 & 61.1 & 69.9 & 81.4 & 124 & 4.11$\times$ \\
+ & SLDA on the inputs & 614 & 942 & 1,270 & 1,598 & 2,910 & 9.01$\times$ \\
+ & HLOP & 151 & 208 & 264 & 320 & 548 & 6.61$\times$ \\
+ & Rehearsal (reservoir, 20 per stream class) & 169 & 263 & 356 & 449 & 826 & 9.34$\times$ \\
+ & Fine-tuning & 84.7 & 131 & 175 & 220 & 403 & 9.00$\times$ \\
+\multicolumn{2}{l}{SHD: $R=$ 8, 16, 24, 32, 64, 128} &  &  &  &  &  &  \\
+ & REWIRE & 113 & 153 & 193 & 232 & 391 & 6.24$\times$ \\
+ & REWIRE-gated & 100 & 126 & 151 & 177 & 249 & 3.57$\times$ \\
+ & SLDA on the inputs & 31.9 & 43.0 & 54.2 & 65.3 & 110 & 6.23$\times$ \\
+ & HLOP & 270 & 338 & 407 & 477 & 749 & 4.81$\times$ \\
+ & Rehearsal (reservoir, 20 per stream class) & 327 & 447 & 567 & 685 & 1,161 & 6.45$\times$ \\
+ & Fine-tuning & 160 & 217 & 274 & 331 & 558 & 6.37$\times$ \\
+\multicolumn{2}{l}{CIFAR-10: $R=$ 8, 16, 24, 32, 64, 128} &  &  &  &  &  &  \\
+ & REWIRE & 69.5 & 107 & 144 & 181 & 330 & 9.05$\times$ \\
+ & REWIRE-gated & 39.3 & 52.4 & 66.3 & 70.0 & 103 & 3.79$\times$ \\
+ & SLDA on the inputs & 8.5 & 13.0 & 17.5 & 22.1 & 40.2 & 9.05$\times$ \\
+ & HLOP & 159 & 234 & 308 & 383 & 682 & 8.05$\times$ \\
+ & Rehearsal (reservoir, 20 per stream class) & 263 & 407 & 552 & 697 & 1,276 & 9.27$\times$ \\
+ & Fine-tuning & 132 & 202 & 272 & 342 & 622 & 8.97$\times$ \\
+\multicolumn{2}{l}{CIFAR-100: $R=$ 8, 16, 32, 64} &  &  &  &  &  &  \\
+ & REWIRE & 490 & 535 & 626 & 806 &  & 1.64$\times$ \\
+ & REWIRE-gated & 473 & 509 & 559 & 669 &  & 1.41$\times$ \\
+ & SLDA on the inputs & 71.8 & 78.5 & 91.7 & 118 &  & 1.64$\times$ \\
+ & HLOP & 2,758 & 2,877 & 3,116 & 3,593 &  & 1.30$\times$ \\
+ & Rehearsal (reservoir, 20 per stream class) & 1,669 & 1,824 & 2,134 & 2,754 &  & 1.65$\times$ \\
+ & Fine-tuning & 805 & 880 & 1,028 & 1,325 &  & 1.65$\times$ \\
+\multicolumn{2}{l}{Tiny-ImageNet: $R=$ 8, 16, 32, 64} &  &  &  &  &  &  \\
+ & REWIRE & 585 & 639 & 746 & 962 &  & 1.64$\times$ \\
+ & REWIRE-gated & 554 & 580 & 633 & 731 &  & 1.32$\times$ \\
+ & SLDA on the inputs & 96.9 & 106 & 124 & 159 &  & 1.64$\times$ \\
+ & HLOP & 2,823 & 2,948 & 3,199 & 3,700 &  & 1.31$\times$ \\
+ & Rehearsal (reservoir, 20 per stream class) & 1,775 & 1,938 & 2,269 & 2,932 &  & 1.65$\times$ \\
+ & Fine-tuning & 849 & 927 & 1,084 & 1,399 &  & 1.65$\times$ \\
+\bottomrule
+\end{tabular*}

@@ -1,0 +1,48 @@
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llrrrrrr@{}}
+\toprule
+Dataset & Method & ACC & ACC shifted & $\Delta$ unshifted & first written (\%) & later written (\%) & Energy (mJ) \\
+\midrule
+MNIST & REWIRE & 91.1$\pm$1.5 & 91.1 & \ensuremath{-}0.2 & -- & -- & 159 \\
+ & REWIRE-gated & 87.5$\pm$1.9 & 87.5 & \ensuremath{-}0.4 & 82 & 5 & 91.1 \\
+ & REWIRE-gated, Mahalanobis familiarity & 87.2$\pm$1.9 & 87.2 & \ensuremath{-}0.7 & 80 & 5 & 128 \\
+ & SLDA on the inputs & 86.9$\pm$1.7 & 86.9 & \ensuremath{-}0.6 & -- & -- & 56.9 \\
+ & HLOP & 88.6$\pm$2.2 & 88.6 & \ensuremath{-}2.4 & -- & -- & 459 \\
+ & Rehearsal (reservoir, 20 per stream class) & 90.7$\pm$1.5 & 90.7 & \ensuremath{-}0.6 & -- & -- & 842 \\
+ & Fine-tuning & 67.6$\pm$6.7 & 67.6 & \ensuremath{-}6.4 & -- & -- & 414 \\
+N-MNIST & REWIRE & 90.9$\pm$1.2 & 90.9 & \ensuremath{-}0.6 & -- & -- & 166 \\
+ & REWIRE-gated & 87.7$\pm$1.5 & 87.7 & +0.8 & 95 & 6 & 103 \\
+ & REWIRE-gated, Mahalanobis familiarity & 87.7$\pm$1.5 & 87.7 & +0.9 & 95 & 6 & 143 \\
+ & SLDA on the inputs & 87.8$\pm$1.2 & 87.8 & \ensuremath{-}0.5 & -- & -- & 1,270 \\
+ & HLOP & 85.7$\pm$4.3 & 85.7 & \ensuremath{-}5.0 & -- & -- & 263 \\
+ & Rehearsal (reservoir, 20 per stream class) & 88.4$\pm$3.2 & 88.4 & \ensuremath{-}1.4 & -- & -- & 354 \\
+ & Fine-tuning & 52.2$\pm$10.1 & 52.2 & \ensuremath{-}3.7 & -- & -- & 174 \\
+SHD & REWIRE & 57.5$\pm$2.4 & 57.7 & \ensuremath{-}1.5 & -- & -- & 193 \\
+ & REWIRE-gated & 56.3$\pm$2.7 & 56.5 & \ensuremath{-}1.3 & 99 & 54 & 177 \\
+ & REWIRE-gated, Mahalanobis familiarity & 56.3$\pm$2.7 & 56.5 & \ensuremath{-}1.3 & 99 & 54 & 252 \\
+ & SLDA on the inputs & 45.5$\pm$1.5 & 46.4 & \ensuremath{-}2.0 & -- & -- & 54.2 \\
+ & HLOP & 29.6$\pm$5.2 & 31.6 & \ensuremath{-}9.1 & -- & -- & 404 \\
+ & Rehearsal (reservoir, 20 per stream class) & 52.3$\pm$5.5 & 53.9 & \ensuremath{-}2.9 & -- & -- & 563 \\
+ & Fine-tuning & 16.4$\pm$1.9 & 18.0 & \ensuremath{-}0.2 & -- & -- & 271 \\
+CIFAR-10 & REWIRE & 70.8$\pm$2.9 & 70.8 & \ensuremath{-}14.6 & -- & -- & 144 \\
+ & REWIRE-gated & 69.0$\pm$3.6 & 69.0 & \ensuremath{-}12.4 & 100 & 55 & 118 \\
+ & REWIRE-gated, Mahalanobis familiarity & 68.9$\pm$3.6 & 68.9 & \ensuremath{-}12.6 & 100 & 55 & 171 \\
+ & SLDA on the inputs & 72.6$\pm$2.3 & 72.6 & \ensuremath{-}13.9 & -- & -- & 17.5 \\
+ & HLOP & 45.7$\pm$3.1 & 45.7 & \ensuremath{-}37.0 & -- & -- & 308 \\
+ & Rehearsal (reservoir, 20 per stream class) & 61.0$\pm$3.0 & 61.0 & \ensuremath{-}20.2 & -- & -- & 551 \\
+ & Fine-tuning & 42.8$\pm$2.9 & 42.8 & \ensuremath{-}25.6 & -- & -- & 271 \\
+CIFAR-100 & REWIRE & 63.8$\pm$1.1 & 66.7 & +0.2 & -- & -- & 535 \\
+ & REWIRE-gated & 63.8$\pm$1.1 & 66.7 & +0.3 & 99 & 0 & 536 \\
+ & REWIRE-gated, Mahalanobis familiarity & 63.8$\pm$1.1 & 66.7 & +0.3 & 99 & 0 & 736 \\
+ & SLDA on the inputs & 64.4$\pm$0.9 & 66.3 & +0.2 & -- & -- & 78.5 \\
+ & HLOP & 50.1$\pm$1.1 & 42.7 & \ensuremath{-}2.8 & -- & -- & 2,876 \\
+ & Rehearsal (reservoir, 20 per stream class) & 57.2$\pm$0.7 & 59.6 & +0.9 & -- & -- & 1,821 \\
+ & Fine-tuning & 9.3$\pm$1.8 & 27.3 & \ensuremath{-}0.3 & -- & -- & 875 \\
+Tiny-ImageNet & REWIRE & 71.9$\pm$1.1 & 76.1 & +0.7 & -- & -- & 639 \\
+ & REWIRE-gated & 71.8$\pm$1.0 & 75.6 & +0.7 & 94 & 0 & 634 \\
+ & REWIRE-gated, Mahalanobis familiarity & 71.8$\pm$1.0 & 75.6 & +0.7 & 94 & 0 & 833 \\
+ & SLDA on the inputs & 72.7$\pm$0.8 & 76.6 & +0.9 & -- & -- & 106 \\
+ & HLOP & 61.9$\pm$0.7 & 57.4 & \ensuremath{-}1.2 & -- & -- & 2,947 \\
+ & Rehearsal (reservoir, 20 per stream class) & 65.6$\pm$1.1 & 71.1 & +1.1 & -- & -- & 1,935 \\
+ & Fine-tuning & 11.0$\pm$1.5 & 31.5 & \ensuremath{-}0.2 & -- & -- & 921 \\
+\bottomrule
+\end{tabular*}

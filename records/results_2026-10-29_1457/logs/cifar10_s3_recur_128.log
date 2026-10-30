@@ -1,0 +1,13 @@
+[data] cifar10: 50000 samples
+[data] pretrained ResNet-18 features from cache: (50000, 512)
+  rewire            s3 cifar10 none   | acc 0.87 bwt +0.02 | recur 0.0/0 steps | S_AUR +0.65 (S_ctrl +1.00) RIF +0.002 | AUROC 0.97 | 628772 uJ 4216.1KB
+  rewire_gated      s3 cifar10 none   | acc 0.81 bwt -0.03 | recur 0.0/0 steps | S_AUR +0.53 (S_ctrl +1.00) RIF +0.002 | AUROC 0.97 | 147383 uJ 4216.1KB
+  abl_sketch_ridge  s3 cifar10 none   | acc 0.81 bwt +0.07 | recur 0.0/0 steps | S_AUR +0.73 (S_ctrl +nan) RIF +0.002 | AUROC 0.97 | 178272 uJ 1084.1KB
+  ctrl_slda_input   s3 cifar10 none   | acc 0.87 bwt +0.00 | recur 0.0/0 steps | S_AUR +0.56 (S_ctrl +1.00) RIF +0.001 | AUROC 1.00 | 76502 uJ 1084.1KB
+  naive             s3 cifar10 none   | acc 0.68 bwt -0.27 | recur 40.0/40 steps | S_AUR +0.61 (S_ctrl +0.53) RIF +0.001 | AUROC 0.52 | 1182691 uJ 0.0KB
+  replay            s3 cifar10 none   | acc 0.83 bwt -0.10 | recur 40.0/40 steps | S_AUR +0.71 (S_ctrl +1.00) RIF -0.004 | AUROC 0.73 | 2435495 uJ 321.2KB
+  hlop              s3 cifar10 none   | acc 0.84 bwt -0.08 | recur 40.0/40 steps | S_AUR +0.71 (S_ctrl +1.00) RIF +0.002 | AUROC 0.92 | 1280450 uJ 416.0KB
+done: 7 runs in 607s
+[worker] cifar10 seed 3 recur: 7 rows
+
+/home/ubuntu/rewire/.venv/bin/python3 -m rewire.worker --dataset cifar10 --seed 3 --stage recur --out results/results_2026-10-29_1457/parts/cifar10/recur/n128/s3 --data_root /home/ubuntu/data --n-recur 128 --set rw2_eps=0.1

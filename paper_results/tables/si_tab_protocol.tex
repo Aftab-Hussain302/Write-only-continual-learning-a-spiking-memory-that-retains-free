@@ -1,0 +1,15 @@
+\begin{tabular}{p{0.17\textwidth}p{0.77\textwidth}}
+\toprule
+Setting & Value \\
+\midrule
+Datasets & MNIST, N-MNIST, SHD (no front end); CIFAR-10, CIFAR-100, Tiny-ImageNet (frozen ImageNet-pretrained ResNet-18, 512-d features, identical for every method) \\
+Streams & MNIST, N-MNIST, CIFAR-10: 8 classes, 24 recurrence chunks, 2 held out; SHD: 16 classes, 24 recurrence chunks, 4 held out; CIFAR-100, Tiny-ImageNet: 80 classes, 16 recurrence chunks, 20 held out; minimum gap of 2 chunks between visits of a class; recurrences drawn with probability proportional to the time since the last visit \\
+Samples per class & 500 train / 200 test (MNIST, N-MNIST, CIFAR-10); 293 train / 100 test (SHD); 300 train / 100 test (CIFAR-100); 331 train / 100 test (Tiny-ImageNet); feature standardisation on a fixed 10\% subset removed from every stream and test set \\
+Chunk & 80 target samples of the arriving class, of which the first 16 are held out and never written, + 40 context samples of the two most recent other classes; the first chunk introduces two classes (interleaved, no context) \\
+Substrate & 1024 leaky integrate-and-fire units, leak $\beta=0.95$, threshold $u_{\rm th}=1$, $T=6$ (20 for spike trains), random afferent weights folded to a drive standard deviation of 1.5 on a calibration batch, never trained \\
+Memory & dual view of a $d_s=512$ rectified sketch and an input view ($\le512$ dimensions); count-free discriminant with shrinkage $\varepsilon=0.1$; one-hot ridge with $\lambda=1$ (ridge ablations and controls); gate $\delta=0.05$, $\theta=0.85$, budget $B=128$ \\
+Gradient baselines & 1024 LIF units, surrogate gradient (slope 2), Adam, learning rate $10^{-3}$ scaled by $\sqrt{784/d_{\rm in}}$, class-balanced batches of up to 32 samples, the same number from each class of a chunk (30 in a single-class chunk), 40 updates per chunk; HLOP: the authors' Hebbian module; rehearsal: one reservoir buffer of 20 samples per stream class, filled from every sample and not class-balanced, or of as many samples as fit in REWIRE's standing memory (iso-memory); EWC: running-mean diagonal Fisher, $\lambda_{\rm EWC}=10^3$ \\
+Energy & $E_{\rm MAC}=4.6$\,pJ, $E_{\rm AC}=0.9$\,pJ at 45\,nm; synaptic operations from the spikes emitted; one accumulate per input event per postsynaptic unit on event and spike data; backward factor 2; the shared front end reported separately \\
+Seeds and runs & 5 seeds per dataset and method, paired by the stream schedule (29 methods and variants $\times$ 6 datasets $\times$ 5 seeds = 870 main-grid runs) \\
+\bottomrule
+\end{tabular}

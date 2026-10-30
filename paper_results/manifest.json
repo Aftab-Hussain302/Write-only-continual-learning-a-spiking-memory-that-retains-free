@@ -1,0 +1,74 @@
+{
+ "version": "2026-10-29",
+ "date": "2026-10-30T15:56:19",
+ "runs": [
+  "records/results_2026-10-29_1457"
+ ],
+ "rows": {
+  "main": 870,
+  "shift": 210,
+  "sweep": 910,
+  "gate": 180,
+  "eps_sens": 150,
+  "eps_dev": 5,
+  "native": 60,
+  "akida": 2,
+  "datasets": [
+   "mnist",
+   "nmnist",
+   "shd",
+   "cifar10",
+   "cifar100",
+   "tinyimagenet"
+  ],
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "arms": 29,
+  "synthetic": false
+ },
+ "code_hash": [
+  "83030c41f78c61dfce1ff838b70f7f34831a967559006dab0908bb5a313be9de"
+ ],
+ "eps_selected": {
+  "grid": [
+   0.01,
+   0.03,
+   0.1,
+   0.3,
+   1.0
+  ],
+  "dev_final_acc": {
+   "0.01": 0.6426249828189612,
+   "0.03": 0.6456249833106995,
+   "0.1": 0.6492499820888042,
+   "0.3": 0.6493749860674143,
+   "1.0": 0.6453749869018793
+  },
+  "selected": 0.1,
+  "dataset": "cifar100",
+  "seed": 100,
+  "rule": "highest final accuracy on the development stream; within 0.1 points tie -> closest to 0.1 (log scale)"
+ },
+ "font": "Liberation Sans",
+ "figures": [
+  "fig3",
+  "fig4",
+  "fig5",
+  "ed_streams",
+  "ed_retention",
+  "ed_savings_recovery",
+  "ed_density",
+  "ed_shift",
+  "ed_hardware",
+  "si_eps",
+  "si_gate_thresholds",
+  "aux_fig1e"
+ ],
+ "synthetic": false,
+ "n_values": 37815
+}

@@ -1,0 +1,19 @@
+[data] cifar10: 50000 samples
+[data] pretrained ResNet-18 features from cache: (50000, 512)
+  rewire            s4 cifar10 none   | acc 0.84 bwt +0.01 | recur 0.0/0 steps | S_AUR +0.67 (S_ctrl +1.00) RIF +0.009 | AUROC 0.99 | 144070 uJ 4216.1KB
+done: 1 runs in 11s
+[data] pretrained ResNet-18 features from cache: (50000, 512)
+  rewire            s4 cifar10 none   | acc 0.86 bwt +0.02 | recur 0.0/0 steps | S_AUR +0.71 (S_ctrl +1.00) RIF +0.007 | AUROC 0.99 | 144070 uJ 4216.1KB
+done: 1 runs in 7s
+[data] pretrained ResNet-18 features from cache: (50000, 512)
+  rewire            s4 cifar10 none   | acc 0.87 bwt +0.02 | recur 0.0/0 steps | S_AUR +0.74 (S_ctrl +1.00) RIF +0.009 | AUROC 0.99 | 144070 uJ 4216.1KB
+done: 1 runs in 8s
+[data] pretrained ResNet-18 features from cache: (50000, 512)
+  rewire            s4 cifar10 none   | acc 0.88 bwt +0.00 | recur 0.0/0 steps | S_AUR +0.74 (S_ctrl +1.00) RIF +0.007 | AUROC 0.99 | 144070 uJ 4216.1KB
+done: 1 runs in 7s
+[data] pretrained ResNet-18 features from cache: (50000, 512)
+  rewire            s4 cifar10 none   | acc 0.89 bwt -0.00 | recur 0.0/0 steps | S_AUR +0.73 (S_ctrl +1.00) RIF +0.006 | AUROC 0.99 | 144070 uJ 4216.1KB
+done: 1 runs in 6s
+[worker] cifar10 seed 4 eps_sens: 0 rows
+
+/home/ubuntu/rewire/.venv/bin/python3 -m rewire.worker --dataset cifar10 --seed 4 --stage eps_sens --out results/results_2026-10-29_1457/parts/cifar10/eps_sens/s4 --data_root /home/ubuntu/data --set rw2_eps=0.1

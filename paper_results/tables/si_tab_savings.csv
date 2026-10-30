@@ -1,0 +1,271 @@
+method,quantity,dataset,value
+rewire,retention at re-admission (\%),mnist,95.06770913799605
+rewire,retention at re-admission (\%),nmnist,95.87500077982743
+rewire,retention at re-admission (\%),shd,84.6666673446695
+rewire,retention at re-admission (\%),cifar10,93.06250090400377
+rewire,retention at re-admission (\%),cifar100,84.81250066310167
+rewire,retention at re-admission (\%),tinyimagenet,87.32812559232116
+rewire,steps to relearn a forgotten class,mnist,0.0
+rewire,steps to relearn a forgotten class,nmnist,0.0
+rewire,steps to relearn a forgotten class,shd,2.933333333333333
+rewire,steps to relearn a forgotten class,cifar10,0.0
+rewire,steps to relearn a forgotten class,cifar100,8.133333333333335
+rewire,steps to relearn a forgotten class,tinyimagenet,10.333333333333332
+rewire,steps to learn a never-seen class,mnist,3.8
+rewire,steps to learn a never-seen class,nmnist,3.8
+rewire,steps to learn a never-seen class,shd,33.05
+rewire,steps to learn a never-seen class,cifar10,8.5
+rewire,steps to learn a never-seen class,cifar100,14.63
+rewire,steps to learn a never-seen class,tinyimagenet,8.27
+rewire,savings $S$,mnist,1.0
+rewire,savings $S$,nmnist,1.0
+rewire,savings $S$,shd,0.9198567472328231
+rewire,savings $S$,cifar10,1.0
+rewire,savings $S$,cifar100,0.4013472870805743
+rewire,savings $S$,tinyimagenet,-0.25644990009796054
+rewire,censored events per seed,mnist,0.0
+rewire,censored events per seed,nmnist,0.0
+rewire,censored events per seed,shd,2.6
+rewire,censored events per seed,cifar10,0.0
+rewire,censored events per seed,cifar100,4.6
+rewire,censored events per seed,tinyimagenet,1.0
+rewire_gated,retention at re-admission (\%),mnist,93.38541768491268
+rewire_gated,retention at re-admission (\%),nmnist,94.0677091727654
+rewire_gated,retention at re-admission (\%),shd,83.93229233721891
+rewire_gated,retention at re-admission (\%),cifar10,91.08854254086812
+rewire_gated,retention at re-admission (\%),cifar100,84.96093800291419
+rewire_gated,retention at re-admission (\%),tinyimagenet,87.50000072643161
+rewire_gated,steps to relearn a forgotten class,mnist,0.0
+rewire_gated,steps to relearn a forgotten class,nmnist,0.0
+rewire_gated,steps to relearn a forgotten class,shd,5.8
+rewire_gated,steps to relearn a forgotten class,cifar10,0.0
+rewire_gated,steps to relearn a forgotten class,cifar100,8.4
+rewire_gated,steps to relearn a forgotten class,tinyimagenet,11.0
+rewire_gated,steps to learn a never-seen class,mnist,3.2
+rewire_gated,steps to learn a never-seen class,nmnist,3.5
+rewire_gated,steps to learn a never-seen class,shd,30.4
+rewire_gated,steps to learn a never-seen class,cifar10,6.6
+rewire_gated,steps to learn a never-seen class,cifar100,14.48
+rewire_gated,steps to learn a never-seen class,tinyimagenet,7.82
+rewire_gated,savings $S$,mnist,1.0
+rewire_gated,savings $S$,nmnist,1.0
+rewire_gated,savings $S$,shd,0.8080944191319336
+rewire_gated,savings $S$,cifar10,1.0
+rewire_gated,savings $S$,cifar100,0.39350754428100965
+rewire_gated,savings $S$,tinyimagenet,-0.30001838005543424
+rewire_gated,censored events per seed,mnist,0.0
+rewire_gated,censored events per seed,nmnist,0.0
+rewire_gated,censored events per seed,shd,2.2
+rewire_gated,censored events per seed,cifar10,0.0
+rewire_gated,censored events per seed,cifar100,4.0
+rewire_gated,censored events per seed,tinyimagenet,0.6
+ctrl_slda_input,retention at re-admission (\%),mnist,93.19791756570339
+ctrl_slda_input,retention at re-admission (\%),nmnist,94.39062577982745
+ctrl_slda_input,retention at re-admission (\%),shd,80.85416765262684
+ctrl_slda_input,retention at re-admission (\%),cifar10,93.35937594374022
+ctrl_slda_input,retention at re-admission (\%),cifar100,84.12500072270632
+ctrl_slda_input,retention at re-admission (\%),tinyimagenet,86.69531321153045
+ctrl_slda_input,steps to relearn a forgotten class,mnist,0.0
+ctrl_slda_input,steps to relearn a forgotten class,nmnist,0.0
+ctrl_slda_input,steps to relearn a forgotten class,shd,12.866666666666665
+ctrl_slda_input,steps to relearn a forgotten class,cifar10,0.0
+ctrl_slda_input,steps to relearn a forgotten class,cifar100,17.666666666666668
+ctrl_slda_input,steps to relearn a forgotten class,tinyimagenet,20.73333333333333
+ctrl_slda_input,steps to learn a never-seen class,mnist,5.1
+ctrl_slda_input,steps to learn a never-seen class,nmnist,7.6
+ctrl_slda_input,steps to learn a never-seen class,shd,32.7
+ctrl_slda_input,steps to learn a never-seen class,cifar10,5.7
+ctrl_slda_input,steps to learn a never-seen class,cifar100,14.27
+ctrl_slda_input,steps to learn a never-seen class,tinyimagenet,7.65
+ctrl_slda_input,savings $S$,mnist,1.0
+ctrl_slda_input,savings $S$,nmnist,1.0
+ctrl_slda_input,savings $S$,shd,0.6350396315852611
+ctrl_slda_input,savings $S$,cifar10,1.0
+ctrl_slda_input,savings $S$,cifar100,-0.23088833722540572
+ctrl_slda_input,savings $S$,tinyimagenet,-1.7902684897958117
+ctrl_slda_input,censored events per seed,mnist,0.0
+ctrl_slda_input,censored events per seed,nmnist,0.0
+ctrl_slda_input,censored events per seed,shd,3.0
+ctrl_slda_input,censored events per seed,cifar10,0.0
+ctrl_slda_input,censored events per seed,cifar100,5.2
+ctrl_slda_input,censored events per seed,tinyimagenet,2.2
+ranpac,retention at re-admission (\%),mnist,94.48958406845729
+ranpac,retention at re-admission (\%),nmnist,93.07812578976154
+ranpac,retention at re-admission (\%),shd,71.91145883174613
+ranpac,retention at re-admission (\%),cifar10,88.63541764517625
+ranpac,retention at re-admission (\%),cifar100,78.46875059884042
+ranpac,retention at re-admission (\%),tinyimagenet,81.52343793073669
+ranpac,steps to relearn a forgotten class,mnist,0.0
+ranpac,steps to relearn a forgotten class,nmnist,0.0
+ranpac,steps to relearn a forgotten class,shd,13.866666666666665
+ranpac,steps to relearn a forgotten class,cifar10,0.0
+ranpac,steps to relearn a forgotten class,cifar100,6.6
+ranpac,steps to relearn a forgotten class,tinyimagenet,7.733333333333334
+ranpac,steps to learn a never-seen class,mnist,10.3
+ranpac,steps to learn a never-seen class,nmnist,16.5
+ranpac,steps to learn a never-seen class,shd,36.65
+ranpac,steps to learn a never-seen class,cifar10,26.0
+ranpac,steps to learn a never-seen class,cifar100,14.5
+ranpac,steps to learn a never-seen class,tinyimagenet,13.080000000000002
+ranpac,savings $S$,mnist,1.0
+ranpac,savings $S$,nmnist,1.0
+ranpac,savings $S$,shd,0.6233846673604513
+ranpac,savings $S$,cifar10,1.0
+ranpac,savings $S$,cifar100,0.5268151601782506
+ranpac,savings $S$,tinyimagenet,0.41321165938204685
+ranpac,censored events per seed,mnist,0.0
+ranpac,censored events per seed,nmnist,0.0
+ranpac,censored events per seed,shd,2.8
+ranpac,censored events per seed,cifar10,0.2
+ranpac,censored events per seed,cifar100,0.4
+ranpac,censored events per seed,tinyimagenet,0.2
+hlop,retention at re-admission (\%),mnist,94.9895841628313
+hlop,retention at re-admission (\%),nmnist,91.35416731859247
+hlop,retention at re-admission (\%),shd,61.56250013504177
+hlop,retention at re-admission (\%),cifar10,91.03645929445823
+hlop,retention at re-admission (\%),cifar100,79.39843820407987
+hlop,retention at re-admission (\%),tinyimagenet,82.76562582701445
+hlop,steps to relearn a forgotten class,mnist,0.0
+hlop,steps to relearn a forgotten class,nmnist,0.0
+hlop,steps to relearn a forgotten class,shd,12.466666666666665
+hlop,steps to relearn a forgotten class,cifar10,0.0
+hlop,steps to relearn a forgotten class,cifar100,32.13333333333333
+hlop,steps to relearn a forgotten class,tinyimagenet,31.133333333333333
+hlop,steps to learn a never-seen class,mnist,15.4
+hlop,steps to learn a never-seen class,nmnist,16.5
+hlop,steps to learn a never-seen class,shd,28.1
+hlop,steps to learn a never-seen class,cifar10,13.0
+hlop,steps to learn a never-seen class,cifar100,33.64
+hlop,steps to learn a never-seen class,tinyimagenet,33.97
+hlop,savings $S$,mnist,1.0
+hlop,savings $S$,nmnist,1.0
+hlop,savings $S$,shd,0.5453470754916293
+hlop,savings $S$,cifar10,1.0
+hlop,savings $S$,cifar100,0.043856165732857756
+hlop,savings $S$,tinyimagenet,0.08236673234244037
+hlop,censored events per seed,mnist,0.0
+hlop,censored events per seed,nmnist,0.0
+hlop,censored events per seed,shd,0.8
+hlop,censored events per seed,cifar10,0.0
+hlop,censored events per seed,cifar100,11.2
+hlop,censored events per seed,tinyimagenet,8.6
+replay,retention at re-admission (\%),mnist,93.4895839417974
+replay,retention at re-admission (\%),nmnist,92.58854238937298
+replay,retention at re-admission (\%),shd,76.5312504915831
+replay,retention at re-admission (\%),cifar10,88.66145903865497
+replay,retention at re-admission (\%),cifar100,78.78906296566129
+replay,retention at re-admission (\%),tinyimagenet,81.74218803178519
+replay,steps to relearn a forgotten class,mnist,0.0
+replay,steps to relearn a forgotten class,nmnist,0.06666666666666667
+replay,steps to relearn a forgotten class,shd,2.2
+replay,steps to relearn a forgotten class,cifar10,0.4666666666666666
+replay,steps to relearn a forgotten class,cifar100,4.0
+replay,steps to relearn a forgotten class,tinyimagenet,3.066666666666667
+replay,steps to learn a never-seen class,mnist,6.6
+replay,steps to learn a never-seen class,nmnist,7.3
+replay,steps to learn a never-seen class,shd,20.45
+replay,steps to learn a never-seen class,cifar10,5.5
+replay,steps to learn a never-seen class,cifar100,9.48
+replay,steps to learn a never-seen class,tinyimagenet,8.2
+replay,savings $S$,mnist,1.0
+replay,savings $S$,nmnist,0.9897435897435898
+replay,savings $S$,shd,0.8882559822584877
+replay,savings $S$,cifar10,0.9111111111111111
+replay,savings $S$,cifar100,0.5765351598166587
+replay,savings $S$,tinyimagenet,0.6250293959856992
+replay,censored events per seed,mnist,0.0
+replay,censored events per seed,nmnist,0.0
+replay,censored events per seed,shd,0.4
+replay,censored events per seed,cifar10,0.0
+replay,censored events per seed,cifar100,0.0
+replay,censored events per seed,tinyimagenet,0.0
+replay_iso,retention at re-admission (\%),mnist,96.60937582453091
+replay_iso,retention at re-admission (\%),nmnist,94.09375075250864
+replay_iso,retention at re-admission (\%),shd,76.11979217734188
+replay_iso,retention at re-admission (\%),cifar10,94.28645898898442
+replay_iso,retention at re-admission (\%),cifar100,82.39843799732625
+replay_iso,retention at re-admission (\%),tinyimagenet,85.82031312398612
+replay_iso,steps to relearn a forgotten class,mnist,0.0
+replay_iso,steps to relearn a forgotten class,nmnist,0.0
+replay_iso,steps to relearn a forgotten class,shd,2.066666666666667
+replay_iso,steps to relearn a forgotten class,cifar10,0.0
+replay_iso,steps to relearn a forgotten class,cifar100,3.6666666666666665
+replay_iso,steps to relearn a forgotten class,tinyimagenet,3.066666666666667
+replay_iso,steps to learn a never-seen class,mnist,6.6
+replay_iso,steps to learn a never-seen class,nmnist,8.5
+replay_iso,steps to learn a never-seen class,shd,21.75
+replay_iso,steps to learn a never-seen class,cifar10,5.4
+replay_iso,steps to learn a never-seen class,cifar100,9.120000000000001
+replay_iso,steps to learn a never-seen class,tinyimagenet,7.85
+replay_iso,savings $S$,mnist,1.0
+replay_iso,savings $S$,nmnist,1.0
+replay_iso,savings $S$,shd,0.9018449921774729
+replay_iso,savings $S$,cifar10,1.0
+replay_iso,savings $S$,cifar100,0.5974001295285639
+replay_iso,savings $S$,tinyimagenet,0.6070272012790019
+replay_iso,censored events per seed,mnist,0.0
+replay_iso,censored events per seed,nmnist,0.0
+replay_iso,censored events per seed,shd,0.4
+replay_iso,censored events per seed,cifar10,0.0
+replay_iso,censored events per seed,cifar100,0.0
+replay_iso,censored events per seed,tinyimagenet,0.0
+ewc,retention at re-admission (\%),mnist,72.34375036593215
+ewc,retention at re-admission (\%),nmnist,60.08333362134484
+ewc,retention at re-admission (\%),shd,51.99479172200275
+ewc,retention at re-admission (\%),cifar10,68.01041700993665
+ewc,retention at re-admission (\%),cifar100,50.49218749452848
+ewc,retention at re-admission (\%),tinyimagenet,51.10937502293382
+ewc,steps to relearn a forgotten class,mnist,1.9333333333333336
+ewc,steps to relearn a forgotten class,nmnist,3.4
+ewc,steps to relearn a forgotten class,shd,11.933333333333334
+ewc,steps to relearn a forgotten class,cifar10,2.4
+ewc,steps to relearn a forgotten class,cifar100,6.066666666666666
+ewc,steps to relearn a forgotten class,tinyimagenet,10.533333333333335
+ewc,steps to learn a never-seen class,mnist,8.7
+ewc,steps to learn a never-seen class,nmnist,21.4
+ewc,steps to learn a never-seen class,shd,33.9
+ewc,steps to learn a never-seen class,cifar10,22.4
+ewc,steps to learn a never-seen class,cifar100,21.3
+ewc,steps to learn a never-seen class,tinyimagenet,23.080000000000002
+ewc,savings $S$,mnist,0.7767285861713107
+ewc,savings $S$,nmnist,0.7967876039304611
+ewc,savings $S$,shd,0.6351241570842296
+ewc,savings $S$,cifar10,0.8348316498316498
+ewc,savings $S$,cifar100,0.7094924497479058
+ewc,savings $S$,tinyimagenet,0.5056139874368037
+ewc,censored events per seed,mnist,0.0
+ewc,censored events per seed,nmnist,0.8
+ewc,censored events per seed,shd,2.6
+ewc,censored events per seed,cifar10,1.0
+ewc,censored events per seed,cifar100,7.4
+ewc,censored events per seed,tinyimagenet,8.4
+naive,retention at re-admission (\%),mnist,72.25000031020802
+naive,retention at re-admission (\%),nmnist,59.8645835230127
+naive,retention at re-admission (\%),shd,52.000000082577266
+naive,retention at re-admission (\%),cifar10,67.79687535328169
+naive,retention at re-admission (\%),cifar100,50.460937503376044
+naive,retention at re-admission (\%),tinyimagenet,51.062500027474016
+naive,steps to relearn a forgotten class,mnist,1.8666666666666665
+naive,steps to relearn a forgotten class,nmnist,3.5333333333333337
+naive,steps to relearn a forgotten class,shd,13.666666666666666
+naive,steps to relearn a forgotten class,cifar10,2.3333333333333335
+naive,steps to relearn a forgotten class,cifar100,6.066666666666666
+naive,steps to relearn a forgotten class,tinyimagenet,6.133333333333333
+naive,steps to learn a never-seen class,mnist,8.7
+naive,steps to learn a never-seen class,nmnist,18.5
+naive,steps to learn a never-seen class,shd,36.1
+naive,steps to learn a never-seen class,cifar10,22.4
+naive,steps to learn a never-seen class,cifar100,21.44
+naive,steps to learn a never-seen class,tinyimagenet,21.919999999999998
+naive,savings $S$,mnist,0.7858187134502923
+naive,savings $S$,nmnist,0.7472004357298474
+naive,savings $S$,shd,0.625712682401079
+naive,savings $S$,cifar10,0.8469528619528619
+naive,savings $S$,cifar100,0.712355872987416
+naive,savings $S$,tinyimagenet,0.7129556739188694
+naive,censored events per seed,mnist,0.0
+naive,censored events per seed,nmnist,0.6
+naive,censored events per seed,shd,2.8
+naive,censored events per seed,cifar10,1.0
+naive,censored events per seed,cifar100,7.2
+naive,censored events per seed,tinyimagenet,7.4

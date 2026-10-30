@@ -1,0 +1,4 @@
+hlop_module.py is copied verbatim from the official HLOP-SNN repository
+(https://github.com/pkuxmq/HLOP-SNN, Xiao et al., "Hebbian Learning based Orthogonal Projection for
+Continual Learning of Spiking Neural Networks", ICLR 2024), Apache License 2.0. It is used unmodified so that
+the HLOP baseline in this benchmark runs the authors' own Hebbian subspace learning and projection.

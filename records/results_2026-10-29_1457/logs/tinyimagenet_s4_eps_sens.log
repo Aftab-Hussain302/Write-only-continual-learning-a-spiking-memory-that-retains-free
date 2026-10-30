@@ -1,0 +1,24 @@
+[data] Tiny-ImageNet-200 from /home/ubuntu/data/tiny-imagenet-200: 100000 samples at 64x64, 200 classes (uint8, 1.2 GB)
+[data] pretrained ResNet-18 features from cache: (100000, 512)
+[data] small dataset: 331 train / 100 test per class
+  rewire            s4 tinyimagenet none   | acc 0.70 bwt -0.03 | recur 0.0/0 steps | S_AUR +0.04 (S_ctrl +0.73) RIF +0.009 | AUROC 0.97 | 638790 uJ 6497.6KB
+done: 1 runs in 101s
+[data] pretrained ResNet-18 features from cache: (100000, 512)
+[data] small dataset: 331 train / 100 test per class
+  rewire            s4 tinyimagenet none   | acc 0.71 bwt -0.04 | recur 0.0/0 steps | S_AUR +0.01 (S_ctrl +0.89) RIF +0.008 | AUROC 0.97 | 638790 uJ 6497.6KB
+done: 1 runs in 102s
+[data] pretrained ResNet-18 features from cache: (100000, 512)
+[data] small dataset: 331 train / 100 test per class
+  rewire            s4 tinyimagenet none   | acc 0.71 bwt -0.05 | recur 0.0/0 steps | S_AUR +0.01 (S_ctrl +0.89) RIF +0.007 | AUROC 0.97 | 638790 uJ 6497.6KB
+done: 1 runs in 97s
+[data] pretrained ResNet-18 features from cache: (100000, 512)
+[data] small dataset: 331 train / 100 test per class
+  rewire            s4 tinyimagenet none   | acc 0.71 bwt -0.06 | recur 0.0/0 steps | S_AUR -0.09 (S_ctrl +0.87) RIF +0.007 | AUROC 0.97 | 638790 uJ 6497.6KB
+done: 1 runs in 105s
+[data] pretrained ResNet-18 features from cache: (100000, 512)
+[data] small dataset: 331 train / 100 test per class
+  rewire            s4 tinyimagenet none   | acc 0.71 bwt -0.07 | recur 0.0/0 steps | S_AUR -0.12 (S_ctrl +0.63) RIF +0.005 | AUROC 0.97 | 638790 uJ 6497.6KB
+done: 1 runs in 94s
+[worker] tinyimagenet seed 4 eps_sens: 0 rows
+
+/home/ubuntu/rewire/.venv/bin/python3 -m rewire.worker --dataset tinyimagenet --seed 4 --stage eps_sens --out results/results_2026-10-29_1457/parts/tinyimagenet/eps_sens/s4 --data_root /home/ubuntu/data --set rw2_eps=0.1

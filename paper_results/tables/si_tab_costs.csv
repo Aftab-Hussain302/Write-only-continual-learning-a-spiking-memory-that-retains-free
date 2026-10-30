@@ -1,0 +1,241 @@
+method,quantity,dataset,value
+rewire,admission (mJ),mnist,5.070564431506864
+rewire,admission (mJ),nmnist,5.291738916670683
+rewire,admission (mJ),shd,4.924148425021384
+rewire,admission (mJ),cifar10,4.602320355663531
+rewire,admission (mJ),cifar100,5.634797180569128
+rewire,admission (mJ),tinyimagenet,6.722705270107238
+rewire,maintenance overhead (mJ),mnist,0.0
+rewire,maintenance overhead (mJ),nmnist,0.0
+rewire,maintenance overhead (mJ),shd,0.0
+rewire,maintenance overhead (mJ),cifar10,0.0
+rewire,maintenance overhead (mJ),cifar100,0.0
+rewire,maintenance overhead (mJ),tinyimagenet,0.0
+rewire,re-admission (mJ),mnist,5.148485289968834
+rewire,re-admission (mJ),nmnist,5.375615412690858
+rewire,re-admission (mJ),shd,4.953078664244287
+rewire,re-admission (mJ),cifar10,4.660587290028393
+rewire,re-admission (mJ),cifar100,5.640283000452894
+rewire,re-admission (mJ),tinyimagenet,6.728500573146436
+rewire,standing memory (KB),mnist,4216.08203125
+rewire,standing memory (KB),nmnist,4216.08203125
+rewire,standing memory (KB),shd,4336.16015625
+rewire,standing memory (KB),cifar10,4216.08203125
+rewire,standing memory (KB),cifar100,5296.78515625
+rewire,standing memory (KB),tinyimagenet,6497.56640625
+rewire,resident memory (KB),mnist,11058.1171875
+rewire,resident memory (KB),nmnist,20226.1171875
+rewire,resident memory (KB),shd,10754.234375
+rewire,resident memory (KB),cifar10,8402.1171875
+rewire,resident memory (KB),cifar100,10203.171875
+rewire,resident memory (KB),tinyimagenet,12204.34375
+rewire_gated,admission (mJ),mnist,5.070564431506864
+rewire_gated,admission (mJ),nmnist,5.291738916670683
+rewire_gated,admission (mJ),shd,4.924148425021384
+rewire_gated,admission (mJ),cifar10,4.602320355663531
+rewire_gated,admission (mJ),cifar100,5.634797180569128
+rewire_gated,admission (mJ),tinyimagenet,6.722705270107238
+rewire_gated,maintenance overhead (mJ),mnist,0.0
+rewire_gated,maintenance overhead (mJ),nmnist,0.0
+rewire_gated,maintenance overhead (mJ),shd,0.0
+rewire_gated,maintenance overhead (mJ),cifar10,0.0
+rewire_gated,maintenance overhead (mJ),cifar100,0.0
+rewire_gated,maintenance overhead (mJ),tinyimagenet,0.0
+rewire_gated,re-admission (mJ),mnist,1.3796799164265843
+rewire_gated,re-admission (mJ),nmnist,1.3675926752434164
+rewire_gated,re-admission (mJ),shd,3.20101033531459
+rewire_gated,re-admission (mJ),cifar10,1.4199829537016382
+rewire_gated,re-admission (mJ),cifar100,4.002919643015469
+rewire_gated,re-admission (mJ),tinyimagenet,3.0270212311431592
+rewire_gated,standing memory (KB),mnist,4216.08203125
+rewire_gated,standing memory (KB),nmnist,4216.08203125
+rewire_gated,standing memory (KB),shd,4336.16015625
+rewire_gated,standing memory (KB),cifar10,4216.08203125
+rewire_gated,standing memory (KB),cifar100,5296.78515625
+rewire_gated,standing memory (KB),tinyimagenet,6497.56640625
+rewire_gated,resident memory (KB),mnist,11058.1171875
+rewire_gated,resident memory (KB),nmnist,20226.1171875
+rewire_gated,resident memory (KB),shd,10754.234375
+rewire_gated,resident memory (KB),cifar10,8402.1171875
+rewire_gated,resident memory (KB),cifar100,10203.171875
+rewire_gated,resident memory (KB),tinyimagenet,12204.34375
+ctrl_slda_input,admission (mJ),mnist,1.8220741771999998
+ctrl_slda_input,admission (mJ),nmnist,40.85293096014285
+ctrl_slda_input,admission (mJ),shd,1.3853942636
+ctrl_slda_input,admission (mJ),cifar10,0.5600190058571428
+ctrl_slda_input,admission (mJ),cifar100,0.8257632491265822
+ctrl_slda_input,admission (mJ),tinyimagenet,1.1139204784936714
+ctrl_slda_input,maintenance overhead (mJ),mnist,0.0
+ctrl_slda_input,maintenance overhead (mJ),nmnist,0.0
+ctrl_slda_input,maintenance overhead (mJ),shd,0.0
+ctrl_slda_input,maintenance overhead (mJ),cifar10,0.0
+ctrl_slda_input,maintenance overhead (mJ),cifar100,0.0
+ctrl_slda_input,maintenance overhead (mJ),tinyimagenet,0.0
+ctrl_slda_input,re-admission (mJ),mnist,1.8384369291999996
+ctrl_slda_input,re-admission (mJ),nmnist,40.994044871
+ctrl_slda_input,re-admission (mJ),shd,1.3915766635999998
+ctrl_slda_input,re-admission (mJ),cifar10,0.567044231
+ctrl_slda_input,re-admission (mJ),cifar100,0.8264930629999998
+ctrl_slda_input,re-admission (mJ),tinyimagenet,1.1147695429999995
+ctrl_slda_input,standing memory (KB),mnist,2492.95703125
+ctrl_slda_input,standing memory (KB),nmnist,21151.26953125
+ctrl_slda_input,standing memory (KB),shd,2078.28515625
+ctrl_slda_input,standing memory (KB),cifar10,1084.08203125
+ctrl_slda_input,standing memory (KB),cifar100,1624.78515625
+ctrl_slda_input,standing memory (KB),tinyimagenet,2225.56640625
+ctrl_slda_input,resident memory (KB),mnist,8846.6796875
+ctrl_slda_input,resident memory (KB),nmnist,39794.6484375
+ctrl_slda_input,resident memory (KB),shd,7823.78125
+ctrl_slda_input,resident memory (KB),cifar10,5250.1171875
+ctrl_slda_input,resident memory (KB),cifar100,6331.171875
+ctrl_slda_input,resident memory (KB),tinyimagenet,7532.34375
+ranpac,admission (mJ),mnist,1.473976572028571
+ranpac,admission (mJ),nmnist,2.5515438259714283
+ranpac,admission (mJ),shd,1.4663889699866666
+ranpac,admission (mJ),cifar10,1.2821583174
+ranpac,admission (mJ),cifar100,1.5755349084683545
+ranpac,admission (mJ),tinyimagenet,1.8636921378354436
+ranpac,maintenance overhead (mJ),mnist,0.0
+ranpac,maintenance overhead (mJ),nmnist,0.0
+ranpac,maintenance overhead (mJ),shd,0.0
+ranpac,maintenance overhead (mJ),cifar10,0.0
+ranpac,maintenance overhead (mJ),cifar100,0.0
+ranpac,maintenance overhead (mJ),tinyimagenet,0.0
+ranpac,re-admission (mJ),mnist,1.5193740613999998
+ranpac,re-admission (mJ),nmnist,2.6421826885999997
+ranpac,re-admission (mJ),shd,1.4864766278
+ranpac,re-admission (mJ),cifar10,1.3195023686
+ranpac,re-admission (mJ),cifar100,1.5789512005999997
+ranpac,re-admission (mJ),tinyimagenet,1.8672276805999974
+ranpac,standing memory (KB),mnist,1084.08203125
+ranpac,standing memory (KB),nmnist,1084.08203125
+ranpac,standing memory (KB),shd,1144.16015625
+ranpac,standing memory (KB),cifar10,1084.08203125
+ranpac,standing memory (KB),cifar100,1624.78515625
+ranpac,standing memory (KB),tinyimagenet,2225.56640625
+ranpac,resident memory (KB),mnist,9478.1171875
+ranpac,resident memory (KB),nmnist,21702.1171875
+ranpac,resident memory (KB),shd,8926.234375
+ranpac,resident memory (KB),cifar10,7302.1171875
+ranpac,resident memory (KB),cifar100,8383.171875
+ranpac,resident memory (KB),tinyimagenet,9584.34375
+hlop,admission (mJ),mnist,17.38714059225328
+hlop,admission (mJ),nmnist,13.58127210569728
+hlop,admission (mJ),shd,13.560465806956367
+hlop,admission (mJ),cifar10,12.0315493831848
+hlop,admission (mJ),cifar100,33.40087754795429
+hlop,admission (mJ),tinyimagenet,34.145229571671365
+hlop,maintenance overhead (mJ),mnist,3.918957663715575
+hlop,maintenance overhead (mJ),nmnist,7.849959090321948
+hlop,maintenance overhead (mJ),shd,6.482639503645274
+hlop,maintenance overhead (mJ),cifar10,3.198240043442997
+hlop,maintenance overhead (mJ),cifar100,24.142483613833228
+hlop,maintenance overhead (mJ),tinyimagenet,24.403696342122622
+hlop,re-admission (mJ),mnist,14.070598227900328
+hlop,re-admission (mJ),nmnist,7.037056308678589
+hlop,re-admission (mJ),shd,8.491028080410498
+hlop,re-admission (mJ),cifar10,9.343800942480652
+hlop,re-admission (mJ),cifar100,14.89804915101289
+hlop,re-admission (mJ),tinyimagenet,15.62788302994538
+hlop,standing memory (KB),mnist,501.0
+hlop,standing memory (KB),nmnist,978.5
+hlop,standing memory (KB),shd,905.75
+hlop,standing memory (KB),cifar10,416.0
+hlop,standing memory (KB),cifar100,3872.0
+hlop,standing memory (KB),tinyimagenet,3872.0
+hlop,resident memory (KB),mnist,10041.1328125
+hlop,resident memory (KB),nmnist,28854.6328125
+hlop,resident memory (KB),shd,9558.0
+hlop,resident memory (KB),cifar10,6692.1328125
+hlop,resident memory (KB),cifar100,11229.1875
+hlop,resident memory (KB),tinyimagenet,12430.359375
+replay,admission (mJ),mnist,25.6772338763978
+replay,admission (mJ),nmnist,10.83083095706561
+replay,admission (mJ),shd,14.123372491661836
+replay,admission (mJ),cifar10,16.836910819948365
+replay,admission (mJ),cifar100,19.16988603772299
+replay,admission (mJ),tinyimagenet,20.374169647131005
+replay,maintenance overhead (mJ),mnist,12.209050947860092
+replay,maintenance overhead (mJ),nmnist,5.099517941690277
+replay,maintenance overhead (mJ),shd,7.045546188350743
+replay,maintenance overhead (mJ),cifar10,8.003601480206562
+replay,maintenance overhead (mJ),cifar100,9.91149210360193
+replay,maintenance overhead (mJ),tinyimagenet,10.632636417582265
+replay,re-admission (mJ),mnist,27.582406723763278
+replay,re-admission (mJ),nmnist,11.680328521148642
+replay,re-admission (mJ),shd,14.797137361109282
+replay,re-admission (mJ),cifar10,18.097248516892126
+replay,re-admission (mJ),cifar100,19.3215290478282
+replay,re-admission (mJ),tinyimagenet,20.540959249494126
+replay,standing memory (KB),mnist,491.25
+replay,standing memory (KB),nmnist,2168.75
+replay,standing memory (KB),shd,4377.5
+replay,standing memory (KB),cifar10,321.25
+replay,standing memory (KB),cifar100,3212.5
+replay,standing memory (KB),tinyimagenet,3212.5
+replay,resident memory (KB),mnist,10031.3828125
+replay,resident memory (KB),nmnist,30044.8828125
+replay,resident memory (KB),shd,13029.75
+replay,resident memory (KB),cifar10,6597.3828125
+replay,resident memory (KB),cifar100,10569.6875
+replay,resident memory (KB),tinyimagenet,11770.859375
+ewc,admission (mJ),mnist,15.123671534548365
+ewc,admission (mJ),nmnist,7.401715051504814
+ewc,admission (mJ),shd,8.136391029592287
+ewc,admission (mJ),cifar10,9.919791993123026
+ewc,admission (mJ),cifar100,10.519664730724513
+ewc,admission (mJ),tinyimagenet,11.10339018472603
+ewc,maintenance overhead (mJ),mnist,1.6554886060106573
+ewc,maintenance overhead (mJ),nmnist,1.6704020361294816
+ewc,maintenance overhead (mJ),shd,1.0585647262811941
+ewc,maintenance overhead (mJ),cifar10,1.0864826533812237
+ewc,maintenance overhead (mJ),cifar100,1.2612707966034538
+ewc,maintenance overhead (mJ),tinyimagenet,1.3618569551772883
+ewc,re-admission (mJ),mnist,15.109325229154823
+ewc,re-admission (mJ),nmnist,7.51020743143261
+ewc,re-admission (mJ),shd,8.091118807012156
+ewc,re-admission (mJ),cifar10,9.924592402247589
+ewc,re-admission (mJ),cifar100,10.540170728864268
+ewc,re-admission (mJ),tinyimagenet,11.223039474668424
+ewc,standing memory (KB),mnist,6360.078125
+ewc,standing memory (KB),nmnist,18584.078125
+ewc,standing memory (KB),shd,5768.15625
+ewc,standing memory (KB),cifar10,4184.078125
+ewc,standing memory (KB),cifar100,4904.78125
+ewc,standing memory (KB),tinyimagenet,5705.5625
+ewc,resident memory (KB),mnist,15900.2109375
+ewc,resident memory (KB),nmnist,46460.2109375
+ewc,resident memory (KB),shd,14420.40625
+ewc,resident memory (KB),cifar10,10460.2109375
+ewc,resident memory (KB),cifar100,12261.96875
+ewc,resident memory (KB),tinyimagenet,14263.921875
+naive,admission (mJ),mnist,13.46818292853771
+naive,admission (mJ),nmnist,5.731313015375333
+naive,admission (mJ),shd,7.077826303311094
+naive,admission (mJ),cifar10,8.833309339741803
+naive,admission (mJ),cifar100,9.25839393412106
+naive,admission (mJ),tinyimagenet,9.741533229548741
+naive,maintenance overhead (mJ),mnist,
+naive,maintenance overhead (mJ),nmnist,
+naive,maintenance overhead (mJ),shd,
+naive,maintenance overhead (mJ),cifar10,
+naive,maintenance overhead (mJ),cifar100,
+naive,maintenance overhead (mJ),tinyimagenet,
+naive,re-admission (mJ),mnist,13.326543860960218
+naive,re-admission (mJ),nmnist,5.630625235348709
+naive,re-admission (mJ),shd,6.986178624672401
+naive,re-admission (mJ),cifar10,8.753591107527097
+naive,re-admission (mJ),cifar100,9.267047896608348
+naive,re-admission (mJ),tinyimagenet,9.838367606258231
+naive,standing memory (KB),mnist,0.0
+naive,standing memory (KB),nmnist,0.0
+naive,standing memory (KB),shd,0.0
+naive,standing memory (KB),cifar10,0.0
+naive,standing memory (KB),cifar100,0.0
+naive,standing memory (KB),tinyimagenet,0.0
+naive,resident memory (KB),mnist,9540.1328125
+naive,resident memory (KB),nmnist,27876.1328125
+naive,resident memory (KB),shd,8652.25
+naive,resident memory (KB),cifar10,6276.1328125
+naive,resident memory (KB),cifar100,7357.1875
+naive,resident memory (KB),tinyimagenet,8558.359375

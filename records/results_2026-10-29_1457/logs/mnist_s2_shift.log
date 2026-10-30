@@ -1,0 +1,12 @@
+[data] mnist: 60000 samples
+  rewire            s2 mnist   domain | acc 0.88 bwt +0.00 | recur 0.0/0 steps | S_AUR +0.41 (S_ctrl +1.00) RIF +0.012 | AUROC 0.98 | 159055 uJ 4216.1KB
+  rewire_gated      s2 mnist   domain | acc 0.85 bwt -0.03 | recur 0.0/0 steps | S_AUR +0.33 (S_ctrl +1.00) RIF +0.011 | AUROC 0.98 | 93839 uJ 4216.1KB
+  rewire_gated_maha s2 mnist   domain | acc 0.85 bwt -0.03 | recur 0.0/0 steps | S_AUR +0.33 (S_ctrl +1.00) RIF +0.011 | AUROC 1.00 | 132890 uJ 4216.1KB
+  ctrl_slda_input   s2 mnist   domain | acc 0.84 bwt -0.03 | recur 0.0/0 steps | S_AUR +0.37 (S_ctrl +1.00) RIF +0.012 | AUROC 0.98 | 56877 uJ 2493.0KB
+  hlop              s2 mnist   domain | acc 0.86 bwt +0.01 | recur 40.0/40 steps | S_AUR +0.80 (S_ctrl +1.00) RIF +0.009 | AUROC 0.86 | 459357 uJ 501.0KB
+  replay            s2 mnist   domain | acc 0.89 bwt -0.03 | recur 40.0/40 steps | S_AUR +0.87 (S_ctrl +1.00) RIF +0.008 | AUROC 0.86 | 841577 uJ 491.2KB
+  naive             s2 mnist   domain | acc 0.59 bwt -0.36 | recur 40.0/40 steps | S_AUR +0.62 (S_ctrl +0.69) RIF +0.021 | AUROC 0.65 | 414039 uJ 0.0KB
+done: 7 runs in 229s
+[worker] mnist seed 2 shift: 7 rows
+
+/home/ubuntu/rewire/.venv/bin/python3 -m rewire.worker --dataset mnist --seed 2 --stage shift --out results/results_2026-10-29_1457/parts/mnist/shift/s2 --data_root /home/ubuntu/data --set rw2_eps=0.1

@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code or these records, please cite the article."
+title: "REWIRE: code and run records for write-only continual learning"
+authors:
+  - family-names: Hussain
+    given-names: Aftab
+    affiliation: "Institute of Pervasive Computing, Johannes Kepler University Linz"
+  - family-names: Ferscha
+    given-names: Alois
+    affiliation: "Institute of Pervasive Computing, Johannes Kepler University Linz"
+license: Apache-2.0
+repository-code: "https://github.com/Aftab-Hussain302/REWIRE"
+date-released: "2026-10-30"
+keywords:
+  - continual learning
+  - spiking neural networks
+  - neuromorphic computing
+  - class-incremental learning
+  - BrainChip Akida
+preferred-citation:
+  type: unpublished
+  title: "Write-only continual learning: a spiking memory that retains for free and recognises what returns"
+  authors:
+    - family-names: Hussain
+      given-names: Aftab
+      affiliation: "Institute of Pervasive Computing, Johannes Kepler University Linz"
+    - family-names: Ferscha
+      given-names: Alois
+      affiliation: "Institute of Pervasive Computing, Johannes Kepler University Linz"
+  year: 2026
+  notes: "Manuscript under review"

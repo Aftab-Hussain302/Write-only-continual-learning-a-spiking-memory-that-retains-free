@@ -1,0 +1,14 @@
+[data] mnist: 60000 samples
+  rewire            s1 mnist   none   | acc 0.90 bwt +0.01 | recur 0.0/0 steps | S_AUR +0.75 (S_ctrl +1.00) RIF +0.009 | AUROC 0.99 | 159057 uJ 4216.1KB
+done: 1 runs in 14s
+  rewire            s1 mnist   none   | acc 0.91 bwt +0.01 | recur 0.0/0 steps | S_AUR +0.74 (S_ctrl +1.00) RIF +0.009 | AUROC 0.99 | 159057 uJ 4216.1KB
+done: 1 runs in 14s
+  rewire            s1 mnist   none   | acc 0.92 bwt -0.00 | recur 0.0/0 steps | S_AUR +0.74 (S_ctrl +1.00) RIF +0.008 | AUROC 0.99 | 159057 uJ 4216.1KB
+done: 1 runs in 10s
+  rewire            s1 mnist   none   | acc 0.92 bwt -0.01 | recur 0.0/0 steps | S_AUR +0.72 (S_ctrl +1.00) RIF +0.007 | AUROC 0.99 | 159057 uJ 4216.1KB
+done: 1 runs in 10s
+  rewire            s1 mnist   none   | acc 0.92 bwt -0.01 | recur 0.0/0 steps | S_AUR +0.71 (S_ctrl +1.00) RIF +0.007 | AUROC 0.99 | 159057 uJ 4216.1KB
+done: 1 runs in 10s
+[worker] mnist seed 1 eps_sens: 0 rows
+
+/home/ubuntu/rewire/.venv/bin/python3 -m rewire.worker --dataset mnist --seed 1 --stage eps_sens --out results/results_2026-10-29_1457/parts/mnist/eps_sens/s1 --data_root /home/ubuntu/data --set rw2_eps=0.1

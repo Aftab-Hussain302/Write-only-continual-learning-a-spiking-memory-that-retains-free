@@ -1,0 +1,19 @@
+[data] SHD from /home/ubuntu/data/shd/shd_train.h5: 7987 samples, frames (20, 1, 700, 1)
+[data] small dataset: 293 train / 100 test per class
+  rewire            s2 shd     none   | acc 0.56 bwt -0.00 | recur 0.0/0 steps | S_AUR +0.33 (S_ctrl +1.00) RIF +0.008 | AUROC 0.68 | 192976 uJ 4336.2KB
+done: 1 runs in 37s
+[data] small dataset: 293 train / 100 test per class
+  rewire            s2 shd     none   | acc 0.58 bwt -0.01 | recur 0.0/0 steps | S_AUR +0.31 (S_ctrl +0.71) RIF +0.009 | AUROC 0.68 | 192976 uJ 4336.2KB
+done: 1 runs in 36s
+[data] small dataset: 293 train / 100 test per class
+  rewire            s2 shd     none   | acc 0.59 bwt -0.04 | recur 0.0/0 steps | S_AUR +0.32 (S_ctrl +0.40) RIF +0.010 | AUROC 0.68 | 192976 uJ 4336.2KB
+done: 1 runs in 43s
+[data] small dataset: 293 train / 100 test per class
+  rewire            s2 shd     none   | acc 0.61 bwt -0.05 | recur 0.0/0 steps | S_AUR +0.31 (S_ctrl +0.00) RIF +0.010 | AUROC 0.68 | 192976 uJ 4336.2KB
+done: 1 runs in 38s
+[data] small dataset: 293 train / 100 test per class
+  rewire            s2 shd     none   | acc 0.61 bwt -0.07 | recur 0.0/0 steps | S_AUR +0.29 (S_ctrl +0.89) RIF +0.008 | AUROC 0.68 | 192976 uJ 4336.2KB
+done: 1 runs in 38s
+[worker] shd seed 2 eps_sens: 0 rows
+
+/home/ubuntu/rewire/.venv/bin/python3 -m rewire.worker --dataset shd --seed 2 --stage eps_sens --out results/results_2026-10-29_1457/parts/shd/eps_sens/s2 --data_root /home/ubuntu/data --set rw2_eps=0.1

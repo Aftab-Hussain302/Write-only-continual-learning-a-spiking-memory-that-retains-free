@@ -1,0 +1,13 @@
+paper_results/figures/aux_fig1e_reference.pdf: A look-alike letters = 0; B letter-like symbols = 0; C digits 0/1 glued to letters = 0; D unusual characters = 0; (info: other Greek letters in Latin words = 0)
+paper_results/figures/ed_fig3_streams.pdf: A look-alike letters = 0; B letter-like symbols = 0; C digits 0/1 glued to letters = 0; D unusual characters = 0; (info: other Greek letters in Latin words = 0)
+paper_results/figures/ed_fig4_retention.pdf: A look-alike letters = 0; B letter-like symbols = 0; C digits 0/1 glued to letters = 0; D unusual characters = 0; (info: other Greek letters in Latin words = 0)
+paper_results/figures/ed_fig6_savings_recovery.pdf: A look-alike letters = 0; B letter-like symbols = 0; C digits 0/1 glued to letters = 0; D unusual characters = 0; (info: other Greek letters in Latin words = 0)
+paper_results/figures/ed_fig7_density.pdf: A look-alike letters = 0; B letter-like symbols = 0; C digits 0/1 glued to letters = 0; D unusual characters = 0; (info: other Greek letters in Latin words = 0)
+paper_results/figures/ed_fig8_shift.pdf: A look-alike letters = 0; B letter-like symbols = 0; C digits 0/1 glued to letters = 0; D unusual characters = 0; (info: other Greek letters in Latin words = 0)
+paper_results/figures/ed_fig9_hardware.pdf: A look-alike letters = 0; B letter-like symbols = 0; C digits 0/1 glued to letters = 4; D unusual characters = 0; (info: other Greek letters in Latin words = 1)
+   [C] e.g. 'AKD1000', 'AKD1000', 'AKD1000:', 'AKD1000'
+paper_results/figures/fig3_accuracy_energy_costs.pdf: A look-alike letters = 0; B letter-like symbols = 0; C digits 0/1 glued to letters = 0; D unusual characters = 0; (info: other Greek letters in Latin words = 0)
+paper_results/figures/fig4_retention_savings_ablation.pdf: A look-alike letters = 0; B letter-like symbols = 0; C digits 0/1 glued to letters = 0; D unusual characters = 0; (info: other Greek letters in Latin words = 0)
+paper_results/figures/fig5_gate_density_recognition_shift.pdf: A look-alike letters = 0; B letter-like symbols = 0; C digits 0/1 glued to letters = 0; D unusual characters = 0; (info: other Greek letters in Latin words = 0)
+paper_results/figures/si_fig1_gate_thresholds.pdf: A look-alike letters = 0; B letter-like symbols = 0; C digits 0/1 glued to letters = 0; D unusual characters = 0; (info: other Greek letters in Latin words = 0)
+paper_results/figures/si_fig2_shrinkage.pdf: A look-alike letters = 0; B letter-like symbols = 0; C digits 0/1 glued to letters = 0; D unusual characters = 0; (info: other Greek letters in Latin words = 0)

@@ -1,0 +1,192 @@
+{
+ "dataset": "nmnist",
+ "backend": "hw",
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "eps": 0.1,
+ "versions": {
+  "python": "3.11.2",
+  "torch": "2.7.1+cpu",
+  "akida": "2.10.0",
+  "cnn2snn": "2.10.0",
+  "quantizeml": "0.12.1",
+  "tf_keras": null
+ },
+ "device": "PCIe/NSoC_v2/0",
+ "date": "2026-10-30T10:09:35",
+ "synthetic": false,
+ "summary": {
+  "acc_chip": 91.0125,
+  "acc_sim": 91.0125,
+  "acc_numpy": 90.9875,
+  "acc_lif": 91.4875,
+  "floor_mW": 901.7999877929688,
+  "energy_per_frame_uJ": 2470.13410908399,
+  "net_energy_per_frame_uJ": 67.78974332029425,
+  "latency_ms": 2.663942442608441,
+  "modelled_uJ": 0.9698054428559342,
+  "measured_over_modelled": 69.9281086888797
+ },
+ "per_seed": [
+  {
+   "dataset": "nmnist",
+   "seed": 0,
+   "n_written": 3184,
+   "n_test": 1600,
+   "eps": 0.1,
+   "acc_lif": 92.9375,
+   "acc_lif_campaign": 92.93749704957008,
+   "acc_numpy": 92.625,
+   "modelled_uJ": 0.9813596501421555,
+   "nnz_input": 822.1036443525459,
+   "nnz_hidden": 485.47945205479454,
+   "acc_sim": 92.8125,
+   "sw_fps_software": 2821.790106027344,
+   "acc_chip": 92.8125,
+   "sequences": [
+    "HW/expansion-sketch: BackendType.Hardware"
+   ],
+   "floor_mW": 901.7999877929688,
+   "fps": 375.50967662445004,
+   "energy_per_frame_uJ": 2468.358679410631,
+   "avg_power_mW": 926.8922558922559,
+   "latency_ms": 2.6630472188872707,
+   "net_energy_per_frame_uJ": 66.8218947773804,
+   "statistics": [
+    "Average framerate = 375.67 fps\nLast inference power range (mW):  Avg 926.91 / Min 918.00 / Max 927.00 / Std 0.90 \nLast inference energy consumed (mJ/frame): 2.47",
+    "Average framerate = 375.67 fps\nLast inference power range (mW):  Avg 926.91 / Min 918.00 / Max 927.00 / Std 0.90 \nLast inference energy consumed (mJ/frame): 2.47",
+    "Average framerate = 375.19 fps\nLast inference power range (mW):  Avg 926.86 / Min 913.00 / Max 927.00 / Std 1.41 \nLast inference energy consumed (mJ/frame): 2.47"
+   ],
+   "measured_over_modelled": 68.0911374007489
+  },
+  {
+   "dataset": "nmnist",
+   "seed": 1,
+   "n_written": 3184,
+   "n_test": 1600,
+   "eps": 0.1,
+   "acc_lif": 92.5,
+   "acc_lif_campaign": 92.49999821186066,
+   "acc_numpy": 90.875,
+   "modelled_uJ": 0.9702248863459036,
+   "nnz_input": 819.0124837451235,
+   "nnz_hidden": 467.497789336801,
+   "acc_sim": 91.25,
+   "sw_fps_software": 2823.913990484517,
+   "acc_chip": 91.25,
+   "sequences": [
+    "HW/expansion-sketch: BackendType.Hardware"
+   ],
+   "floor_mW": 901.7999877929688,
+   "fps": 375.6840033620758,
+   "energy_per_frame_uJ": 2468.763639866371,
+   "avg_power_mW": 927.4747474747473,
+   "latency_ms": 2.6618114986286026,
+   "net_energy_per_frame_uJ": 68.34137054548431,
+   "statistics": [
+    "Average framerate = 375.82 fps\nLast inference power range (mW):  Avg 927.06 / Min 927.00 / Max 928.00 / Std 0.24 \nLast inference energy consumed (mJ/frame): 2.47",
+    "Average framerate = 375.75 fps\nLast inference power range (mW):  Avg 927.44 / Min 922.00 / Max 928.00 / Std 0.75 \nLast inference energy consumed (mJ/frame): 2.47",
+    "Average framerate = 375.49 fps\nLast inference power range (mW):  Avg 927.92 / Min 927.00 / Max 928.00 / Std 0.27 \nLast inference energy consumed (mJ/frame): 2.47"
+   ],
+   "measured_over_modelled": 70.43869056263242
+  },
+  {
+   "dataset": "nmnist",
+   "seed": 2,
+   "n_written": 3184,
+   "n_test": 1600,
+   "eps": 0.1,
+   "acc_lif": 89.25,
+   "acc_lif_campaign": 89.24999758601189,
+   "acc_numpy": 89.1875,
+   "modelled_uJ": 0.9999794286904451,
+   "nnz_input": 854.6102577453788,
+   "nnz_hidden": 460.873730799271,
+   "acc_sim": 88.625,
+   "sw_fps_software": 2735.644801869235,
+   "acc_chip": 88.625,
+   "sequences": [
+    "HW/expansion-sketch: BackendType.Hardware"
+   ],
+   "floor_mW": 901.7999877929688,
+   "fps": 375.183284077884,
+   "energy_per_frame_uJ": 2471.8610140281585,
+   "avg_power_mW": 927.4006734006734,
+   "latency_ms": 2.6653639499365616,
+   "net_energy_per_frame_uJ": 68.23514451243585,
+   "statistics": [
+    "Average framerate = 375.06 fps\nLast inference power range (mW):  Avg 927.03 / Min 922.00 / Max 928.00 / Std 0.68 \nLast inference energy consumed (mJ/frame): 2.47",
+    "Average framerate = 375.50 fps\nLast inference power range (mW):  Avg 927.63 / Min 927.00 / Max 928.00 / Std 0.49 \nLast inference energy consumed (mJ/frame): 2.47",
+    "Average framerate = 374.99 fps\nLast inference power range (mW):  Avg 927.55 / Min 915.00 / Max 928.00 / Std 1.40 \nLast inference energy consumed (mJ/frame): 2.47"
+   ],
+   "measured_over_modelled": 68.2365482275924
+  },
+  {
+   "dataset": "nmnist",
+   "seed": 3,
+   "n_written": 3184,
+   "n_test": 1600,
+   "eps": 0.1,
+   "acc_lif": 90.3125,
+   "acc_lif_campaign": 90.31249806284904,
+   "acc_numpy": 90.3125,
+   "modelled_uJ": 0.9500102174117646,
+   "nnz_input": 792.960522875817,
+   "nnz_hidden": 475.7330718954248,
+   "acc_sim": 90.5,
+   "sw_fps_software": 2799.7634289745056,
+   "acc_chip": 90.5,
+   "sequences": [
+    "HW/expansion-sketch: BackendType.Hardware"
+   ],
+   "floor_mW": 901.7999877929688,
+   "fps": 375.2824654435608,
+   "energy_per_frame_uJ": 2471.254903721309,
+   "avg_power_mW": 927.4175084175084,
+   "latency_ms": 2.664659535366411,
+   "net_energy_per_frame_uJ": 68.26197060462536,
+   "statistics": [
+    "Average framerate = 375.52 fps\nLast inference power range (mW):  Avg 927.10 / Min 927.00 / Max 928.00 / Std 0.30 \nLast inference energy consumed (mJ/frame): 2.47",
+    "Average framerate = 375.59 fps\nLast inference power range (mW):  Avg 927.49 / Min 918.00 / Max 928.00 / Std 1.08 \nLast inference energy consumed (mJ/frame): 2.47",
+    "Average framerate = 374.74 fps\nLast inference power range (mW):  Avg 927.66 / Min 918.00 / Max 928.00 / Std 1.07 \nLast inference energy consumed (mJ/frame): 2.48"
+   ],
+   "measured_over_modelled": 71.85393309831998
+  },
+  {
+   "dataset": "nmnist",
+   "seed": 4,
+   "n_written": 3184,
+   "n_test": 1600,
+   "eps": 0.1,
+   "acc_lif": 92.4375,
+   "acc_lif_campaign": 92.4374982714653,
+   "acc_numpy": 91.9375,
+   "modelled_uJ": 0.9474530316894019,
+   "nnz_input": 801.9100209863589,
+   "nnz_hidden": 452.28462749213014,
+   "acc_sim": 91.875,
+   "sw_fps_software": 2879.8845156119132,
+   "acc_chip": 91.875,
+   "sequences": [
+    "HW/expansion-sketch: BackendType.Hardware"
+   ],
+   "floor_mW": 901.7999877929688,
+   "fps": 375.25845782417576,
+   "energy_per_frame_uJ": 2470.4323083934833,
+   "avg_power_mW": 927.050505050505,
+   "latency_ms": 2.6648300102233584,
+   "net_energy_per_frame_uJ": 67.28833616154532,
+   "statistics": [
+    "Average framerate = 375.09 fps\nLast inference power range (mW):  Avg 926.95 / Min 918.00 / Max 928.00 / Std 0.93 \nLast inference energy consumed (mJ/frame): 2.47",
+    "Average framerate = 375.42 fps\nLast inference power range (mW):  Avg 926.99 / Min 918.00 / Max 928.00 / Std 0.95 \nLast inference energy consumed (mJ/frame): 2.47",
+    "Average framerate = 375.27 fps\nLast inference power range (mW):  Avg 927.21 / Min 915.00 / Max 928.00 / Std 1.33 \nLast inference energy consumed (mJ/frame): 2.47"
+   ],
+   "measured_over_modelled": 71.02023415510487
+  }
+ ]
+}

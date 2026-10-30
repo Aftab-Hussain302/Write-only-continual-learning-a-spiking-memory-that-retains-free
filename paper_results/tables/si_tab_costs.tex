@@ -1,0 +1,48 @@
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lp{3.2cm}rrrrrr@{}}
+\toprule
+Method & Quantity & MNIST & N-MNIST & SHD & CIFAR-10 & CIFAR-100 & Tiny-ImageNet \\
+\midrule
+REWIRE & admission (mJ) & 5.1 & 5.3 & 4.9 & 4.6 & 5.6 & 6.7 \\
+ & maintenance overhead (mJ) & 0$^{*}$ & 0$^{*}$ & 0$^{*}$ & 0$^{*}$ & 0$^{*}$ & 0$^{*}$ \\
+ & re-admission (mJ) & 5.1 & 5.4 & 5.0 & 4.7 & 5.6 & 6.7 \\
+ & standing memory (KB) & 4,216 & 4,216 & 4,336 & 4,216 & 5,297 & 6,498 \\
+ & resident memory (KB) & 11,058 & 20,226 & 10,754 & 8,402 & 10,203 & 12,204 \\
+REWIRE-gated & admission (mJ) & 5.1 & 5.3 & 4.9 & 4.6 & 5.6 & 6.7 \\
+ & maintenance overhead (mJ) & 0$^{*}$ & 0$^{*}$ & 0$^{*}$ & 0$^{*}$ & 0$^{*}$ & 0$^{*}$ \\
+ & re-admission (mJ) & 1.4 & 1.4 & 3.2 & 1.4 & 4.0 & 3.0 \\
+ & standing memory (KB) & 4,216 & 4,216 & 4,336 & 4,216 & 5,297 & 6,498 \\
+ & resident memory (KB) & 11,058 & 20,226 & 10,754 & 8,402 & 10,203 & 12,204 \\
+SLDA on the inputs & admission (mJ) & 1.8 & 40.9 & 1.4 & 0.6 & 0.8 & 1.1 \\
+ & maintenance overhead (mJ) & 0$^{*}$ & 0$^{*}$ & 0$^{*}$ & 0$^{*}$ & 0$^{*}$ & 0$^{*}$ \\
+ & re-admission (mJ) & 1.8 & 41.0 & 1.4 & 0.6 & 0.8 & 1.1 \\
+ & standing memory (KB) & 2,493 & 21,151 & 2,078 & 1,084 & 1,625 & 2,226 \\
+ & resident memory (KB) & 8,847 & 39,795 & 7,824 & 5,250 & 6,331 & 7,532 \\
+RanPAC-style (ReLU, ridge) & admission (mJ) & 1.5 & 2.6 & 1.5 & 1.3 & 1.6 & 1.9 \\
+ & maintenance overhead (mJ) & 0$^{*}$ & 0$^{*}$ & 0$^{*}$ & 0$^{*}$ & 0$^{*}$ & 0$^{*}$ \\
+ & re-admission (mJ) & 1.5 & 2.6 & 1.5 & 1.3 & 1.6 & 1.9 \\
+ & standing memory (KB) & 1,084 & 1,084 & 1,144 & 1,084 & 1,625 & 2,226 \\
+ & resident memory (KB) & 9,478 & 21,702 & 8,926 & 7,302 & 8,383 & 9,584 \\
+HLOP & admission (mJ) & 17.4 & 13.6 & 13.6 & 12.0 & 33.4 & 34.1 \\
+ & maintenance overhead (mJ) & 3.9 & 7.8 & 6.5 & 3.2 & 24.1 & 24.4 \\
+ & re-admission (mJ) & 14.1 & 7.0 & 8.5 & 9.3 & 14.9 & 15.6 \\
+ & standing memory (KB) & 501 & 978 & 906 & 416 & 3,872 & 3,872 \\
+ & resident memory (KB) & 10,041 & 28,855 & 9,558 & 6,692 & 11,229 & 12,430 \\
+Rehearsal (reservoir, 20 per stream class) & admission (mJ) & 25.7 & 10.8 & 14.1 & 16.8 & 19.2 & 20.4 \\
+ & maintenance overhead (mJ) & 12.2 & 5.1 & 7.0 & 8.0 & 9.9 & 10.6 \\
+ & re-admission (mJ) & 27.6 & 11.7 & 14.8 & 18.1 & 19.3 & 20.5 \\
+ & standing memory (KB) & 491 & 2,169 & 4,378 & 321 & 3,212 & 3,212 \\
+ & resident memory (KB) & 10,031 & 30,045 & 13,030 & 6,597 & 10,570 & 11,771 \\
+EWC & admission (mJ) & 15.1 & 7.4 & 8.1 & 9.9 & 10.5 & 11.1 \\
+ & maintenance overhead (mJ) & 1.7 & 1.7 & 1.1 & 1.1 & 1.3 & 1.4 \\
+ & re-admission (mJ) & 15.1 & 7.5 & 8.1 & 9.9 & 10.5 & 11.2 \\
+ & standing memory (KB) & 6,360 & 18,584 & 5,768 & 4,184 & 4,905 & 5,706 \\
+ & resident memory (KB) & 15,900 & 46,460 & 14,420 & 10,460 & 12,262 & 14,264 \\
+Fine-tuning & admission (mJ) & 13.5 & 5.7 & 7.1 & 8.8 & 9.3 & 9.7 \\
+ & maintenance overhead (mJ) & -- & -- & -- & -- & -- & -- \\
+ & re-admission (mJ) & 13.3 & 5.6 & 7.0 & 8.8 & 9.3 & 9.8 \\
+ & standing memory (KB) & 0 & 0 & 0 & 0 & 0 & 0 \\
+ & resident memory (KB) & 9,540 & 27,876 & 8,652 & 6,276 & 7,357 & 8,558 \\
+\midrule
+Shared front end & energy over the stream (J) & 0 & 0 & 0 & 30.5 & 94.1 & 94.1 \\
+\bottomrule
+\end{tabular*}

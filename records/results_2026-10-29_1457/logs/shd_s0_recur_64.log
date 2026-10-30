@@ -1,0 +1,19 @@
+[data] SHD from /home/ubuntu/data/shd/shd_train.h5: 7987 samples, frames (20, 1, 700, 1)
+[data] small dataset: 293 train / 100 test per class
+  rewire            s0 shd     none   | acc 0.65 bwt +0.01 | recur 0.0/0 steps | S_AUR +0.42 (S_ctrl +nan) RIF +0.005 | AUROC 0.65 | 390125 uJ 4336.2KB
+[data] small dataset: 293 train / 100 test per class
+  rewire_gated      s0 shd     none   | acc 0.63 bwt -0.01 | recur 0.0/0 steps | S_AUR +0.39 (S_ctrl +nan) RIF +0.005 | AUROC 0.65 | 243456 uJ 4336.2KB
+[data] small dataset: 293 train / 100 test per class
+  abl_sketch_ridge  s0 shd     none   | acc 0.51 bwt -0.03 | recur 0.0/0 steps | S_AUR +0.28 (S_ctrl +nan) RIF +0.012 | AUROC 0.66 | 100228 uJ 1144.2KB
+[data] small dataset: 293 train / 100 test per class
+  ctrl_slda_input   s0 shd     none   | acc 0.53 bwt -0.04 | recur 0.0/0 steps | S_AUR +0.21 (S_ctrl +0.53) RIF +0.004 | AUROC 0.62 | 109842 uJ 2078.3KB
+[data] small dataset: 293 train / 100 test per class
+  naive             s0 shd     none   | acc 0.17 bwt -0.66 | recur 40.0/40 steps | S_AUR +0.23 (S_ctrl +0.77) RIF +0.008 | AUROC 0.77 | 539203 uJ 0.0KB
+[data] small dataset: 293 train / 100 test per class
+  replay            s0 shd     none   | acc 0.68 bwt -0.05 | recur 40.0/40 steps | S_AUR +0.65 (S_ctrl +0.88) RIF +0.006 | AUROC 0.90 | 1129510 uJ 4377.5KB
+[data] small dataset: 293 train / 100 test per class
+  hlop              s0 shd     none   | acc 0.45 bwt -0.29 | recur 40.0/40 steps | S_AUR +0.34 (S_ctrl +0.65) RIF +0.005 | AUROC 0.53 | 736850 uJ 905.8KB
+done: 7 runs in 883s
+[worker] shd seed 0 recur: 7 rows
+
+/home/ubuntu/rewire/.venv/bin/python3 -m rewire.worker --dataset shd --seed 0 --stage recur --out results/results_2026-10-29_1457/parts/shd/recur/n64/s0 --data_root /home/ubuntu/data --n-recur 64 --set rw2_eps=0.1

@@ -1,0 +1,10 @@
+[data] mnist: 60000 samples
+  rewire_gated      s2 mnist   none   | acc 0.89 bwt +0.00 | recur 0.0/0 steps | S_AUR +0.28 (S_ctrl +1.00) RIF +0.010 | AUROC 0.98 | 116372 uJ 4216.1KB
+  rewire_gated_maha s2 mnist   none   | acc 0.89 bwt +0.00 | recur 0.0/0 steps | S_AUR +0.28 (S_ctrl +1.00) RIF +0.010 | AUROC 1.00 | 163654 uJ 4216.1KB
+  abl_sketch_ridge_gated s2 mnist   none   | acc 0.84 bwt +0.03 | recur 0.0/0 steps | S_AUR +0.50 (S_ctrl +1.00) RIF +0.010 | AUROC 0.97 | 42890 uJ 1084.1KB
+  hlop_gated        s2 mnist   none   | acc 0.89 bwt +0.04 | recur 23.3/40 steps | S_AUR +0.83 (S_ctrl +1.00) RIF +0.010 | AUROC 0.98 | 321856 uJ 501.0KB
+  replay_gated      s2 mnist   none   | acc 0.87 bwt -0.06 | recur 23.3/40 steps | S_AUR +0.86 (S_ctrl +1.00) RIF +0.011 | AUROC 0.96 | 569003 uJ 491.2KB
+done: 5 runs in 125s
+[worker] mnist seed 2 gate: 5 rows
+
+/home/ubuntu/rewire/.venv/bin/python3 -m rewire.worker --dataset mnist --seed 2 --stage gate --out results/results_2026-10-29_1457/parts/mnist/gate/t0.95/s2 --data_root /home/ubuntu/data --theta 0.95 --set rw2_eps=0.1

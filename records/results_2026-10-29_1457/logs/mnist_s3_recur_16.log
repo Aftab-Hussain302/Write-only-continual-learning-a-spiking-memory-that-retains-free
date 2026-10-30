@@ -1,0 +1,12 @@
+[data] mnist: 60000 samples
+  rewire            s3 mnist   none   | acc 0.91 bwt +0.03 | recur 0.0/0 steps | S_AUR +0.68 (S_ctrl +1.00) RIF +0.014 | AUROC 1.00 | 117871 uJ 4216.1KB
+  rewire_gated      s3 mnist   none   | acc 0.86 bwt -0.02 | recur 0.0/0 steps | S_AUR +0.51 (S_ctrl +1.00) RIF +0.012 | AUROC 1.00 | 59372 uJ 4216.1KB
+  abl_sketch_ridge  s3 mnist   none   | acc 0.87 bwt +0.02 | recur 0.0/0 steps | S_AUR +0.72 (S_ctrl +1.00) RIF +0.014 | AUROC 1.00 | 34696 uJ 1084.1KB
+  ctrl_slda_input   s3 mnist   none   | acc 0.87 bwt +0.02 | recur 0.0/0 steps | S_AUR +0.57 (S_ctrl +1.00) RIF +0.015 | AUROC 1.00 | 42170 uJ 2493.0KB
+  naive             s3 mnist   none   | acc 0.70 bwt -0.26 | recur 40.0/40 steps | S_AUR +0.55 (S_ctrl +0.65) RIF +0.026 | AUROC 0.62 | 307523 uJ 0.0KB
+  replay            s3 mnist   none   | acc 0.91 bwt -0.03 | recur 40.0/40 steps | S_AUR +0.85 (S_ctrl +1.00) RIF +0.014 | AUROC 0.98 | 621091 uJ 491.2KB
+  hlop              s3 mnist   none   | acc 0.90 bwt +0.01 | recur 40.0/40 steps | S_AUR +0.84 (S_ctrl +1.00) RIF +0.014 | AUROC 0.97 | 346751 uJ 501.0KB
+done: 7 runs in 164s
+[worker] mnist seed 3 recur: 7 rows
+
+/home/ubuntu/rewire/.venv/bin/python3 -m rewire.worker --dataset mnist --seed 3 --stage recur --out results/results_2026-10-29_1457/parts/mnist/recur/n16/s3 --data_root /home/ubuntu/data --n-recur 16 --set rw2_eps=0.1

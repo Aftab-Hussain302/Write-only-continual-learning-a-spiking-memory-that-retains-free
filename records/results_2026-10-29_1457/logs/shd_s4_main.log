@@ -1,0 +1,63 @@
+[data] SHD from /home/ubuntu/data/shd/shd_train.h5: 7987 samples, frames (20, 1, 700, 1)
+[data] small dataset: 293 train / 100 test per class
+  rewire            s4 shd     none   | acc 0.56 bwt -0.06 | recur 0.0/0 steps | S_AUR +0.18 (S_ctrl +1.00) RIF +0.009 | AUROC 0.66 | 192981 uJ 4336.2KB
+[data] small dataset: 293 train / 100 test per class
+  rewire_gated      s4 shd     none   | acc 0.54 bwt -0.07 | recur 0.0/0 steps | S_AUR +0.23 (S_ctrl +0.76) RIF +0.008 | AUROC 0.65 | 158081 uJ 4336.2KB
+[data] small dataset: 293 train / 100 test per class
+  rewire_gated_maha s4 shd     none   | acc 0.54 bwt -0.07 | recur 0.0/0 steps | S_AUR +0.23 (S_ctrl +0.76) RIF +0.008 | AUROC 0.98 | 225532 uJ 4336.2KB
+[data] small dataset: 293 train / 100 test per class
+  rewire_gated_t095 s4 shd     none   | acc 0.55 bwt -0.06 | recur 0.0/0 steps | S_AUR +0.18 (S_ctrl +1.00) RIF +0.007 | AUROC 0.65 | 175915 uJ 4336.2KB
+[data] small dataset: 293 train / 100 test per class
+  rewire_gated_b128 s4 shd     none   | acc 0.56 bwt -0.06 | recur 0.0/0 steps | S_AUR +0.19 (S_ctrl +1.00) RIF +0.008 | AUROC 0.66 | 175891 uJ 4336.2KB
+[data] small dataset: 293 train / 100 test per class
+  abl_sketch_ridge  s4 shd     none   | acc 0.45 bwt -0.04 | recur 0.0/0 steps | S_AUR +0.15 (S_ctrl +0.77) RIF +0.017 | AUROC 0.66 | 49978 uJ 1144.2KB
+[data] small dataset: 293 train / 100 test per class
+  abl_sketch_ridge_gated s4 shd     none   | acc 0.46 bwt -0.04 | recur 0.0/0 steps | S_AUR +0.25 (S_ctrl +0.88) RIF +0.018 | AUROC 0.66 | 47328 uJ 1144.2KB
+[data] small dataset: 293 train / 100 test per class
+  abl_sketch_lda    s4 shd     none   | acc 0.54 bwt -0.07 | recur 0.0/0 steps | S_AUR +0.06 (S_ctrl +0.98) RIF +0.008 | AUROC 0.66 | 49978 uJ 1144.2KB
+[data] small dataset: 293 train / 100 test per class
+  abl_dualview_ridge s4 shd     none   | acc 0.46 bwt -0.06 | recur 0.0/0 steps | S_AUR +0.20 (S_ctrl +0.67) RIF +0.015 | AUROC 0.66 | 192981 uJ 4336.2KB
+[data] small dataset: 293 train / 100 test per class
+  abl_width128      s4 shd     none   | acc 0.53 bwt -0.06 | recur 0.0/0 steps | S_AUR +0.17 (S_ctrl -0.09) RIF +0.007 | AUROC 0.63 | 68210 uJ 1750.2KB
+[data] small dataset: 293 train / 100 test per class
+  abl_width256      s4 shd     none   | acc 0.55 bwt -0.05 | recur 0.0/0 steps | S_AUR +0.15 (S_ctrl +0.90) RIF +0.009 | AUROC 0.64 | 99423 uJ 2484.2KB
+[data] small dataset: 293 train / 100 test per class
+  abl_select_errors s4 shd     none   | acc 0.55 bwt -0.06 | recur 0.0/0 steps | S_AUR +0.18 (S_ctrl +1.00) RIF +0.008 | AUROC 0.65 | 186666 uJ 4336.2KB
+[data] small dataset: 293 train / 100 test per class
+  abl_select_random s4 shd     none   | acc 0.54 bwt -0.07 | recur 0.0/0 steps | S_AUR +0.14 (S_ctrl +0.88) RIF +0.008 | AUROC 0.66 | 186853 uJ 4336.2KB
+[data] small dataset: 293 train / 100 test per class
+  abl_sketch_ridge_select_errors s4 shd     none   | acc 0.46 bwt -0.03 | recur 0.0/0 steps | S_AUR +0.25 (S_ctrl +0.86) RIF +0.016 | AUROC 0.68 | 48672 uJ 1144.2KB
+[data] small dataset: 293 train / 100 test per class
+  abl_sketch_ridge_select_random s4 shd     none   | acc 0.46 bwt -0.04 | recur 0.0/0 steps | S_AUR +0.22 (S_ctrl +0.87) RIF +0.016 | AUROC 0.66 | 48761 uJ 1144.2KB
+[data] small dataset: 293 train / 100 test per class
+  abl_sketch_ridge_woodbury s4 shd     none   | acc 0.45 bwt -0.04 | recur 0.0/0 steps | S_AUR +0.15 (S_ctrl +0.77) RIF +0.017 | AUROC 0.66 | 45529 uJ 1144.2KB
+[data] small dataset: 293 train / 100 test per class
+  ctrl_slda_input   s4 shd     none   | acc 0.45 bwt -0.09 | recur 0.0/0 steps | S_AUR +0.16 (S_ctrl +0.84) RIF +0.007 | AUROC 0.62 | 54179 uJ 2078.3KB
+[data] small dataset: 293 train / 100 test per class
+  ctrl_relu         s4 shd     none   | acc 0.54 bwt -0.05 | recur 0.0/0 steps | S_AUR +0.20 (S_ctrl +0.89) RIF +0.010 | AUROC 0.69 | 200674 uJ 4336.2KB
+[data] small dataset: 293 train / 100 test per class
+  ranpac            s4 shd     none   | acc 0.45 bwt -0.01 | recur 0.0/0 steps | S_AUR +0.15 (S_ctrl +0.64) RIF +0.022 | AUROC 0.71 | 57671 uJ 1144.2KB
+[data] small dataset: 293 train / 100 test per class
+  ridge_input       s4 shd     none   | acc 0.32 bwt -0.12 | recur 0.0/0 steps | S_AUR +0.08 (S_ctrl +nan) RIF +0.013 | AUROC 0.62 | 54179 uJ 2078.3KB
+[data] small dataset: 293 train / 100 test per class
+  hd_memory         s4 shd     none   | acc 0.32 bwt -0.16 | recur 0.0/0 steps | S_AUR -0.30 (S_ctrl -8.00) RIF -0.001 | AUROC 0.66 | 37118 uJ 82.6KB
+[data] small dataset: 293 train / 100 test per class
+  hlop              s4 shd     none   | acc 0.40 bwt -0.22 | recur 40.0/40 steps | S_AUR +0.12 (S_ctrl +0.44) RIF +0.014 | AUROC 0.59 | 411830 uJ 905.8KB
+[data] small dataset: 293 train / 100 test per class
+  hlop_adaptive     s4 shd     none   | acc 0.42 bwt -0.20 | recur 40.0/40 steps | S_AUR +0.07 (S_ctrl +0.36) RIF +0.020 | AUROC 0.64 | 642214 uJ 905.8KB
+[data] small dataset: 293 train / 100 test per class
+  hlop_gated        s4 shd     none   | acc 0.40 bwt -0.22 | recur 36.7/40 steps | S_AUR +0.11 (S_ctrl +0.48) RIF +0.013 | AUROC 0.60 | 396601 uJ 905.8KB
+[data] small dataset: 293 train / 100 test per class
+  replay            s4 shd     none   | acc 0.51 bwt -0.24 | recur 40.0/40 steps | S_AUR +0.55 (S_ctrl +0.89) RIF +0.007 | AUROC 0.74 | 572015 uJ 4377.5KB
+[data] small dataset: 293 train / 100 test per class
+  replay_iso        s4 shd     none   | acc 0.54 bwt -0.22 | recur 40.0/40 steps | S_AUR +0.51 (S_ctrl +0.90) RIF +0.005 | AUROC 0.76 | 573085 uJ 4322.8KB
+[data] small dataset: 293 train / 100 test per class
+  replay_gated      s4 shd     none   | acc 0.55 bwt -0.20 | recur 25.0/40 steps | S_AUR +0.56 (S_ctrl +0.93) RIF +0.009 | AUROC 0.69 | 440339 uJ 4377.5KB
+[data] small dataset: 293 train / 100 test per class
+  ewc               s4 shd     none   | acc 0.20 bwt -0.63 | recur 40.0/40 steps | S_AUR +0.15 (S_ctrl +0.41) RIF +0.016 | AUROC 0.62 | 322199 uJ 5768.2KB
+[data] small dataset: 293 train / 100 test per class
+  naive             s4 shd     none   | acc 0.20 bwt -0.63 | recur 40.0/40 steps | S_AUR +0.15 (S_ctrl +0.73) RIF +0.015 | AUROC 0.64 | 279191 uJ 0.0KB
+done: 29 runs in 1980s
+[worker] shd seed 4 main: 29 rows
+
+/home/ubuntu/rewire/.venv/bin/python3 -m rewire.worker --dataset shd --seed 4 --stage main --out results/results_2026-10-29_1457/parts/shd/main/s4 --data_root /home/ubuntu/data --set rw2_eps=0.1

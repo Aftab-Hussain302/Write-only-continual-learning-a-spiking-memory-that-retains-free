@@ -1,0 +1,11 @@
+[data] cifar10: 50000 samples
+[data] pretrained ResNet-18 features from cache: (50000, 512)
+  rewire_gated      s1 cifar10 none   | acc 0.80 bwt -0.07 | recur 0.0/0 steps | S_AUR +0.38 (S_ctrl +1.00) RIF +0.004 | AUROC 1.00 | 45805 uJ 4216.1KB
+  rewire_gated_maha s1 cifar10 none   | acc 0.81 bwt -0.06 | recur 0.0/0 steps | S_AUR +0.45 (S_ctrl +1.00) RIF +0.004 | AUROC 1.00 | 77599 uJ 4216.1KB
+  abl_sketch_ridge_gated s1 cifar10 none   | acc 0.68 bwt -0.08 | recur 0.0/0 steps | S_AUR +0.42 (S_ctrl +1.00) RIF +0.003 | AUROC 1.00 | 25328 uJ 1084.1KB
+  hlop_gated        s1 cifar10 none   | acc 0.74 bwt -0.18 | recur 1.7/40 steps | S_AUR +0.56 (S_ctrl +0.75) RIF +0.001 | AUROC 0.81 | 95663 uJ 416.0KB
+  replay_gated      s1 cifar10 none   | acc 0.83 bwt -0.10 | recur 3.3/40 steps | S_AUR +0.69 (S_ctrl +1.00) RIF +0.008 | AUROC 0.85 | 156148 uJ 321.2KB
+done: 5 runs in 101s
+[worker] cifar10 seed 1 gate: 5 rows
+
+/home/ubuntu/rewire/.venv/bin/python3 -m rewire.worker --dataset cifar10 --seed 1 --stage gate --out results/results_2026-10-29_1457/parts/cifar10/gate/t0.75/s1 --data_root /home/ubuntu/data --theta 0.75 --set rw2_eps=0.1
