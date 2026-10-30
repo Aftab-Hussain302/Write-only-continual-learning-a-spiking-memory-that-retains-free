@@ -104,8 +104,8 @@ baselines; `dsd_snn` runs on the native protocols only. `BASELINES.md` gives the
 ### 1. Environment
 
 ```
-git clone https://github.com/Aftab-Hussain302/REWIRE.git
-cd REWIRE
+git clone https://github.com/Aftab-Hussain302/Write-only-continual-learning-a-spiking-memory-that-retains-for-free-and-recognises-what-returns.git
+cd Write-only-continual-learning-a-spiking-memory-that-retains-for-free-and-recognises-what-returns
 bash setup_env.sh && . .venv/bin/activate
 ```
 

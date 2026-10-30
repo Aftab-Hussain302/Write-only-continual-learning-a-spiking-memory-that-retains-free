@@ -9,7 +9,7 @@ authors:
     given-names: Alois
     affiliation: "Institute of Pervasive Computing, Johannes Kepler University Linz"
 license: Apache-2.0
-repository-code: "https://github.com/Aftab-Hussain302/REWIRE"
+repository-code: "https://github.com/Aftab-Hussain302/Write-only-continual-learning-a-spiking-memory-that-retains-for-free-and-recognises-what-returns"
 date-released: "2026-10-30"
 keywords:
   - continual learning
